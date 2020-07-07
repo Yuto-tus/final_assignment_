@@ -1,6 +1,17 @@
 /* ---------> common */
-.class1 {
+.container {
+    padding:15px 0 ;
+}
 
+*{
+    box-sizing: border-box;
+}
+
+@media (max-width:390px){
+
+    #Abrand {
+        width:70%;
+    }
 }
 
 .class2 {
@@ -10,6 +21,27 @@
 /*<--------- common */
 
 /* ---------> header */
+.brand {
+    height: 100%;
+    width: 50%;
+}
+
+.adjust-height {
+ height: 100%;  
+ width: 12.25%; 
+}
+
+.intro {
+    width: 100%;
+    font-size: 14px;
+    margin-left: auto;
+    column-fill: balance;
+}
+
+.intro-child {
+    width: 100%;
+    text-align: center;
+}
 
 /*<--------- header */
 
