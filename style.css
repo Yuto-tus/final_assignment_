@@ -1,46 +1,131 @@
 /* ---------> common */
 .container {
-    padding:15px 0 ;
+  padding: 15px 0;
 }
 
-*{
-    box-sizing: border-box;
-}
-
-@media (max-width:390px){
-
-    #Abrand {
-        width:70%;
-    }
-}
-
-.class2 {
-
+* {
+  box-sizing: border-box;
 }
 
 /*<--------- common */
 
 /* ---------> header */
-.brand {
-    height: 100%;
-    width: 50%;
+nav {
+  background-color: rgb(0, 0, 0, 0.5);
 }
 
-.adjust-height {
- height: 100%;  
- width: 12.25%; 
+header button {
+  display: none;
 }
 
-.intro {
+#brand-wrap {
+  margin: 0 0 0 64.5px;
+}
+
+#brand-wrap img {
+  height: 100%;
+  width: 50%;
+}
+
+#menue {
+  width: 760.2px;
+  font-size: 14px;
+  margin-left: auto;
+  column-fill: balance;
+  height: 100%;
+  margin-right: 64.5px;
+}
+
+#menue li {
+  height: 100%;
+  width: 12.25%;
+  line-height: 66px;
+}
+
+#menue li a {
+  width: 100%;
+  text-align: center;
+}
+
+.dropdown-group {
+  background-color: rgb(0, 0, 0, 0.5);
+  margin-top: 7.2px;
+}
+
+.dropdown-group div {
+  text-align: left;
+}
+
+.dropdown-group a {
+  font-size: 14px;
+  padding: 0;
+}
+
+@media (max-width: 991px) {
+  nav {
+    background-color: black;
+  }
+
+  .navbar-toggler {
+    padding: 0;
+  }
+
+  header button {
+    display: inline-block;
+    width: 50px;
+    height: 44px;
+  }
+
+  header button .hamburger {
+    position: relative;
+    padding: 0 22px;
+  }
+
+  .hamburger span {
+    position: absolute;
+    left: 0;
+    width: 35px;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 4px;
+    display: inline-block;
+    box-sizing: border-box;
+  }
+
+  .hamburger {
+    margin: auto;
+  }
+
+  .hamburger span:nth-of-type(1) {
+    top: 0;
+  }
+
+  .hamburger span:nth-of-type(2) {
+    top: 11.5px;
+  }
+
+  .hamburger span:nth-of-type(3) {
+    bottom: 0;
+  }
+
+  #menu {
     width: 100%;
-    font-size: 14px;
-    margin-left: auto;
-    column-fill: balance;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .dropdown-group {
+    margin-top: 0;
+  }
+
+  .dropdown-group div {
+    height: 1/6%;
+  }
 }
 
-.intro-child {
-    width: 100%;
-    text-align: center;
+@media (max-width: 380px) {
+  #brand-wrap {
+    width: 70%;
+  }
 }
 
 /*<--------- header */
