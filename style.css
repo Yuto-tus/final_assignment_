@@ -46,24 +46,20 @@ header .menu {
 }
 
 header .menu li {
-  height: 100%;
   width: 12%;
-  line-height: 66px;
   text-align: center;
 }
 
-header .dropdown {
-  height: 90px;
-}
 
-header .menu li a {
+
+header .header-item {
   width: 100%;
   padding-left: 18px;
   color: #fff;
-  height: 100%;
+  padding: 36px 0px ;
 }
 
-header .menu li a:hover {
+header .header-item:hover {
   color: #999999;
 }
 
@@ -79,18 +75,15 @@ header .dropdown-group :hover {
   background-color: #442606;
 }
 
-header .dropdown-group a {
+header .small-item-in-dropdown {
   width: 220px;
-  text-align: left;
   font-size: 14px;
+  color: #fff;
+  height: auto;
+  padding: 15px 18px;
 }
 
-/* header .dropdown-group div {
-  font-size: 14px;
-  padding: 0;
-  height: 50px;
-  line-height: 50px;
-} */
+
 
 @media (max-width: 991px) {
   header {
@@ -105,16 +98,20 @@ header .dropdown-group a {
     height: 100%;
   }
 
+  header .header-contents {
+    width: 100%;
+  }
+
   header .brand-wrap {
     height: 60px;
     padding: 0;
     line-height: 60px;
     margin:0 0 0 5%;
-    width: 60%;
   }
 
   header .brand-wrap img {
     height: auto;
+    width: 40%;
   }
 
   .navbar-toggler {
@@ -125,50 +122,55 @@ header .dropdown-group a {
   header button {
     width: 50px;
     height: 44px;
-    margin-right: 4%;
   }
 
   header button .hamburger {
     position: relative;
-    padding: 0 22px;
+    padding: 0 11px;
     text-align: center;
   }
 
   header .hamburger span {
     position: absolute;
-    width: 35px;
-    height: 4px;
+    width: 15px;
+    height: 2px;
     background-color: #fff;
     border-radius: 4px;
     left: 4px;
   }
 
   header .hamburger span:nth-of-type(1) {
-    top: 0;
+    top: 6px;
   }
 
   header .hamburger span:nth-of-type(2) {
-    top: 11.5px;
+    top: 11px;
   }
 
   header .hamburger span:nth-of-type(3) {
-    bottom: 0;
+    bottom: 8px;
   }
 
   header .menu {
-    height: 400px;
     background-color: rgba(0, 0, 0);
+    height: auto;
+    margin: 0;
+    width: 100%;
   }
 
   header .menu li {
-    height: 50px;
-    padding: 0 0 0 20px;
+    padding: 15px 0 15px 20px;
     width: 100%;
     text-align: left;
-    line-height: 50px;
   }
 
-  header .menu li a:hover {
+
+  header .small-item-in-dropdown {
+    width: 100%;
+  }
+
+
+  header .header-item:hover {
     color: #fff;
   }
 
