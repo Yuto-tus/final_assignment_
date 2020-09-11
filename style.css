@@ -195,6 +195,20 @@ header .small-item-in-dropdown {
 
 /* ---------> main */
 
+.top-img {
+  background-attachment: fixed;
+  background-image: url("https://pbs.twimg.com/media/DuirMa2VAAA96Po.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.top-comment {
+
+
+}
+
 /*<--------- main */
 
 /* ---------> footer */
