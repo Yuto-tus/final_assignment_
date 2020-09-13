@@ -71,6 +71,7 @@ header .dropdown-group {
 
 header .dropdown-group :hover {
   background-color: #442606;
+  color: #fff;
 }
 
 header .small-item-in-dropdown {
@@ -79,6 +80,7 @@ header .small-item-in-dropdown {
   color: #fff;
   height: auto;
   padding: 15px 18px;
+  background-color: #000;
 }
 
 @media (max-width: 991px) {
