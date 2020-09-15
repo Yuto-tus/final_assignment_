@@ -162,12 +162,25 @@ header .small-item-in-dropdown {
     text-align: left;
   }
 
+  header .menu li:nth-child(2) {
+    padding: 0 0 0 14px;
+  }
+
+  .sp-bcause-in-dropdown {
+    margin: 15px 0 15px 6px;
+  }
+
   header .small-item-in-dropdown {
     width: 100%;
+    padding-left: 20px;
   }
 
   header .header-item:hover {
     color: #fff;
+  }
+
+  header .small-item-in-dropdown:first-child {
+    margin-top: 0px;
   }
 
   header .dropdown-group :hover {
