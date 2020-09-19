@@ -117,7 +117,7 @@ header .small-item-in-dropdown {
 
   header .brand-wrap img {
     height: auto;
-    width: 110px;
+    width: 50%;
   }
 
   .navbar-toggler {
@@ -210,6 +210,11 @@ header .small-item-in-dropdown {
   }
 }
 
+@media (max-width: 767px) {
+  header .brand-wrap img {
+    width: 110px;
+  }
+}
 /*<--------- header */
 
 /* ---------> main */
