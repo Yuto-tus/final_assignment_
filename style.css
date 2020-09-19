@@ -97,7 +97,7 @@ header .small-item-in-dropdown {
   }
 
   nav {
-    background-color: #000000;
+    background-color: #000;
   }
 
   header .navbar {
@@ -194,7 +194,7 @@ header .small-item-in-dropdown {
   }
 
   header .dropdown-group :hover {
-    background-color: #000000;
+    background-color: #000;
   }
 
   header .nav-link {
