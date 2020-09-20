@@ -71,13 +71,13 @@ header .header-item:hover {
 
 header .dropdown-group {
   background-color: rgb(0, 0, 0, 0.5);
-  margin-top: 0px;
+  margin-top: 0;
   padding: 0;
   border: 0px none;
-  border-radius: 0px;
+  border-radius: 0;
 }
 
-header .dropdown-group :hover {
+header .dropdown-group:hover {
   background-color: #442606;
   color: #fff;
 }
@@ -193,7 +193,7 @@ header .small-item-in-dropdown {
     margin-top: 0px;
   }
 
-  header .dropdown-group :hover {
+  header .dropdown-group:hover {
     background-color: #000;
   }
 
