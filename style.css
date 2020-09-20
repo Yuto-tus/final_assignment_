@@ -50,13 +50,11 @@ header .menu li {
   text-align: center;
 }
 
-
-
 header .header-item {
   width: 100%;
   padding-left: 18px;
   color: #fff;
-  padding: 36px 0px ;
+  padding: 36px 0px;
 }
 
 header .header-item:hover {
@@ -71,7 +69,7 @@ header .dropdown-group {
   border-radius: 0px;
 }
 
-header .dropdown-group :hover {
+header .dropdown-group:hover {
   background-color: #442606;
 }
 
@@ -82,8 +80,6 @@ header .small-item-in-dropdown {
   height: auto;
   padding: 15px 18px;
 }
-
-
 
 @media (max-width: 991px) {
   header {
@@ -106,7 +102,7 @@ header .small-item-in-dropdown {
     height: 60px;
     padding: 0;
     line-height: 60px;
-    margin:0 0 0 5%;
+    margin: 0 0 0 5%;
   }
 
   header .brand-wrap img {
@@ -164,12 +160,10 @@ header .small-item-in-dropdown {
     text-align: left;
   }
 
-
   header .small-item-in-dropdown {
     width: 100%;
     font-size: 13px;
   }
-
 
   header .header-item:hover {
     color: #fff;
@@ -196,25 +190,49 @@ header .small-item-in-dropdown {
 
 /* ---------> main */
 
-.top-img {
-  background-attachment: fixed;
-  background-image: url("https://pbs.twimg.com/media/DuirMa2VAAA96Po.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
+.top {
   position: relative;
+}
+
+.top img {
+  width: 100%;
 }
 
 .top-comment {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   writing-mode: vertical-rl;
   white-space: nowrap;
   color: #fff;
+}
 
+.top-black {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.top-black h2 {
+  font-size: 36px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.top-black p {
+  font-size: 14px;
+  line-height: 2.6;
+}
+
+.top-comments {
+  padding: 51px 0 79px 0;
+  margin: 0 auto;
+  width: 92%;
+}
+
+.button-in-top ::before {
+  content: "\e90e";
 }
 
 /*<--------- main */
