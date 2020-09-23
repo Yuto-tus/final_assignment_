@@ -37,8 +37,6 @@ header .navbar-brand {
   padding: 0 0 10px 0;
 }
 
-
-
 header .menu {
   width: 80%;
   font-size: 14px;
@@ -101,16 +99,12 @@ header .small-item-in-dropdown {
     height: 100%;
   }
 
-
-
   header .brand-wrap {
     height: 60px;
     padding: 0;
     line-height: 60px;
     margin: 0 0 0 30px;
   }
-
-
 
   .navbar-toggler {
     padding: 0;
@@ -195,7 +189,6 @@ header .small-item-in-dropdown {
   header .dropdown-group {
     margin-top: 0;
   }
-
 }
 
 /*<--------- header */
