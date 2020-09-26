@@ -72,7 +72,7 @@ header .dropdown-group {
   border-radius: 0;
 }
 
-header .dropdown-group :hover {
+header .small-item-in-dropdown:hover {
   background-color: #442606;
   color: #fff;
 }
@@ -178,7 +178,7 @@ header .small-item-in-dropdown {
     margin-top: 0;
   }
 
-  header .dropdown-group :hover {
+  header .small-item-in-dropdown:hover {
     background-color: #000;
   }
 
