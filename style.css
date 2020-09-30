@@ -9,6 +9,8 @@ button:focus {
 /* ---------> header */
 header {
   height: 90px;
+  z-index: 1000;
+  position: relative;
 }
 
 nav {
@@ -196,6 +198,9 @@ header .small-item-in-dropdown {
 
 .top img {
   width: 100%;
+  margin-top: -90px;
+  height: 100vh;
+  object-fit: cover;
 }
 
 .top-comment {
@@ -231,8 +236,20 @@ header .small-item-in-dropdown {
   width: 92%;
 }
 
-.button-in-top ::before {
-  content: "\e90e";
+@media (max-width: 767px) {
+  .top-comment h1 {
+    font-size: 20px;
+  }
+
+  .top-black h2 {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  .top-black p {
+    line-height: 2;
+    font-size: 14px;
+  }
 }
 
 /*<--------- main */
