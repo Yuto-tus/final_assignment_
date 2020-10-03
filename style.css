@@ -8,6 +8,7 @@ body {
   font-family: "Segoe UI", Verdana, "游ゴシック", YuGothic,
     "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 }
+
 /*<--------- common */
 
 /* ---------> header */
@@ -49,17 +50,15 @@ header .menu li {
   margin: auto;
 }
 
-
 header .header-item {
   width: 100%;
   color: #fff;
-  padding: 34px 0px;
+  padding: 34px 0;
 }
 
 header .header-item:hover {
   color: #999;
 }
-
 
 header .dropdown-group {
   margin-top: 0;
@@ -82,11 +81,9 @@ header .small-item-in-dropdown:hover {
   color: #fff;
 }
 
-
-
 @media (max-width: 991px) {
   header {
-    height: 100%;
+    height: initial;
   }
 
   nav {
@@ -172,8 +169,6 @@ header .small-item-in-dropdown:hover {
     font-size: 13px;
   }
 
-
-
   header .small-item-in-dropdown:first-child {
     margin-top: 0;
   }
@@ -185,8 +180,6 @@ header .small-item-in-dropdown:hover {
   header .nav-link {
     padding: 0;
   }
-
-
 }
 
 /*<--------- header */
