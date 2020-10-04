@@ -84,7 +84,7 @@ header .small-item-in-dropdown:hover {
 
 @media (max-width: 991px) {
   header {
-    height: initial;
+    height: auto;
   }
 
   nav {
