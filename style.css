@@ -79,7 +79,6 @@ header .small-item-in-dropdown {
   background-color: #000;
 }
 
-
 header .small-item-in-dropdown:hover {
   background-color: #442606;
   color: #fff;
@@ -108,7 +107,6 @@ header .small-item-in-dropdown:hover {
   header .brand-wrap img {
     height: auto;
     width: 40%;
-
   }
 
   header .navbar-toggler {
@@ -160,7 +158,6 @@ header .small-item-in-dropdown:hover {
     width: 100%;
     text-align: left;
   }
-
 
   header .menu li:nth-child(2) {
     padding: 0 0 0 30px;
