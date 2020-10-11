@@ -202,7 +202,7 @@ header .small-item-in-dropdown:hover {
   width: 100%;
   margin-top: -90px;
   height: 100vh;
-  min-height: 1000px;
+  min-height: 750px;
   object-fit: cover;
 }
 
@@ -242,7 +242,6 @@ header .small-item-in-dropdown:hover {
 @media (max-width: 991px) {
   .top img {
     margin-top: 0;
-    min-height: 750px;
   }
 }
 
