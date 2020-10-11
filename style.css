@@ -15,6 +15,8 @@ body {
 
 header {
   height: 90px;
+  z-index: 1000;
+  position: relative;
 }
 
 nav {
@@ -77,6 +79,7 @@ header .small-item-in-dropdown {
   background-color: #000;
 }
 
+
 header .small-item-in-dropdown:hover {
   background-color: #442606;
   color: #fff;
@@ -84,7 +87,7 @@ header .small-item-in-dropdown:hover {
 
 @media (max-width: 991px) {
   header {
-    height: auto;
+    height: 60px;
   }
 
   nav {
@@ -100,6 +103,12 @@ header .small-item-in-dropdown:hover {
     padding: 0;
     line-height: 60px;
     margin-left: 30px;
+  }
+
+  header .brand-wrap img {
+    height: auto;
+    width: 40%;
+
   }
 
   header .navbar-toggler {
@@ -152,6 +161,7 @@ header .small-item-in-dropdown:hover {
     text-align: left;
   }
 
+
   header .menu li:nth-child(2) {
     padding: 0 0 0 30px;
   }
@@ -186,6 +196,82 @@ header .small-item-in-dropdown:hover {
 /*<--------- header */
 
 /* ---------> main */
+
+.top {
+  position: relative;
+}
+
+.top img {
+  width: 100%;
+  margin-top: -90px;
+  height: 100vh;
+  min-height: 1000px;
+  object-fit: cover;
+}
+
+.top-comment {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  writing-mode: vertical-rl;
+  white-space: nowrap;
+  color: #fff;
+}
+
+.top-black {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.top-black h2 {
+  font-size: 36px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.top-black p {
+  font-size: 14px;
+  line-height: 2.6;
+}
+
+.top-comments {
+  padding: 51px 0 79px 0;
+  margin: 0 auto;
+  width: 92%;
+}
+
+@media (max-width: 991px) {
+  .top img {
+    margin-top: 0;
+    min-height: 750px;
+  }
+}
+
+@media (max-width: 767px) {
+  .top img {
+    min-height: 500px;
+  }
+
+  .top-comment h1 {
+    font-size: 20px;
+  }
+
+  .top-black h2 {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  .top-black p {
+    line-height: 2;
+    font-size: 14px;
+  }
+
+  .top-comments {
+    padding: 32px 20px;
+  }
+}
 
 /*<--------- main */
 
