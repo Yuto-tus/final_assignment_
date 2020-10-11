@@ -4,9 +4,15 @@ button:focus {
   outline: 0;
 }
 
+body {
+  font-family: "Segoe UI", Verdana, "游ゴシック", YuGothic,
+    "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
 /*<--------- common */
 
 /* ---------> header */
+
 header {
   height: 90px;
   z-index: 1000;
@@ -14,7 +20,7 @@ header {
 }
 
 nav {
-  background-color: rgb(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 header .navbar {
@@ -23,56 +29,45 @@ header .navbar {
 }
 
 header .brand-wrap {
-  margin: 0 2% 0 4%;
+  margin-left: 40px;
 }
 
 header .brand-wrap img {
-  height: 100%;
-  width: 50%;
+  height: 25px;
+  width: 140px;
 }
 
 header .navbar-brand {
-  padding: 0 0 10px 0;
-}
-
-header .header-contents {
-  width: 70%;
+  padding-bottom: 10px;
 }
 
 header .menu {
-  width: 90%;
+  width: 80%;
   font-size: 14px;
   margin-left: auto;
   height: 90px;
-  margin-right: 7%;
+  margin-right: 40px;
 }
 
 header .menu li {
-  width: 12%;
-  text-align: center;
+  margin: auto;
 }
 
 header .header-item {
   width: 100%;
-  padding-left: 18px;
   color: #fff;
-  padding: 36px 0px;
+  padding: 34px 0;
 }
 
 header .header-item:hover {
-  color: #999999;
+  color: #999;
 }
 
 header .dropdown-group {
-  background-color: rgb(0, 0, 0, 0.5);
-  margin-top: 0px;
+  margin-top: 0;
   padding: 0;
-  border: 0px none;
-  border-radius: 0px;
-}
-
-header .dropdown-group:hover {
-  background-color: #442606;
+  border: none;
+  border-radius: 0;
 }
 
 header .small-item-in-dropdown {
@@ -81,6 +76,13 @@ header .small-item-in-dropdown {
   color: #fff;
   height: auto;
   padding: 15px 18px;
+  background-color: #000;
+}
+
+
+header .small-item-in-dropdown:hover {
+  background-color: #442606;
+  color: #fff;
 }
 
 @media (max-width: 991px) {
@@ -89,40 +91,37 @@ header .small-item-in-dropdown {
   }
 
   nav {
-    background-color: #000000;
+    background-color: #000;
   }
 
   header .navbar {
     height: 100%;
   }
 
-  header .header-contents {
-    width: 100%;
-  }
-
   header .brand-wrap {
     height: 60px;
     padding: 0;
     line-height: 60px;
-    margin: 0 0 0 5%;
+    margin-left: 30px;
   }
 
   header .brand-wrap img {
     height: auto;
     width: 40%;
+
   }
 
-  .navbar-toggler {
+  header .navbar-toggler {
     padding: 0;
     border: none;
   }
 
-  header button {
+  header .header-button {
     width: 50px;
     height: 44px;
   }
 
-  header button .hamburger {
+  header .header-button .hamburger {
     position: relative;
     padding: 0 11px;
     text-align: center;
@@ -133,7 +132,7 @@ header .small-item-in-dropdown {
     width: 15px;
     height: 2px;
     background-color: #fff;
-    border-radius: 4px;
+    border-radius: 2px;
     left: 4px;
   }
 
@@ -150,41 +149,47 @@ header .small-item-in-dropdown {
   }
 
   header .menu {
-    background-color: rgba(0, 0, 0);
     height: auto;
     margin: 0;
     width: 100%;
+    font-size: 13px;
   }
 
   header .menu li {
-    padding: 15px 0 15px 20px;
+    padding: 15px 0 15px 30px;
     width: 100%;
     text-align: left;
   }
 
-  header .small-item-in-dropdown {
-    width: 100%;
-    font-size: 13px;
+
+  header .menu li:nth-child(2) {
+    padding: 0 0 0 30px;
+  }
+
+  header .header-toggle {
+    margin: 15px 0;
   }
 
   header .header-item:hover {
     color: #fff;
   }
 
-  header .dropdown-group :hover {
-    background-color: #000000;
+  header .small-item-in-dropdown {
+    width: 100%;
+    padding-left: 13px;
+    font-size: 13px;
+  }
+
+  header .small-item-in-dropdown:first-child {
+    margin-top: 0;
+  }
+
+  header .small-item-in-dropdown:hover {
+    background-color: #000;
   }
 
   header .nav-link {
     padding: 0;
-  }
-
-  header .dropdown-group {
-    margin-top: 0;
-  }
-
-  header .dropdown-group div {
-    height: 10%;
   }
 }
 
