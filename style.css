@@ -5,8 +5,12 @@ button:focus {
 }
 
 body {
-  font-family: "Segoe UI", Verdana, "游ゴシック", YuGothic,
-    "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-family: 'Segoe UI', Verdana, '游ゴシック', YuGothic, 'Hiragino Kaku Gothic ProN', Meiryo,
+    sans-serif;
+}
+
+h2 {
+  font-size: 36px;
 }
 
 h1 h2 {
@@ -230,7 +234,6 @@ header .small-item-in-dropdown:hover {
 }
 
 .top-black h2 {
-  font-size: 36px;
   line-height: 1.5;
   margin-bottom: 10px;
 }
@@ -244,6 +247,39 @@ header .small-item-in-dropdown:hover {
   padding: 51px 0 79px 0;
   margin: 0 auto;
   width: 92%;
+}
+
+.people-and-people {
+  background-color: #f5f5f5;
+  margin: 100px 85px;
+}
+
+.four-imgs {
+  display: flex;
+  justify-content: center;
+}
+
+.four-imgs img {
+  width: 50%;
+}
+
+.people-and-people-coments {
+  padding: 51px 20px 49px;
+  text-align: center;
+}
+
+.people-and-people-coments h2 {
+  color: #442606;
+  line-height: 1.5;
+  font-family: 'Times New Roman', '游明朝', 'Yu Mincho', '游明朝体', 'YuMincho',
+    'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', 'HiraMinProN-W3', 'HGS明朝E', 'ＭＳ Ｐ明朝',
+    'MS PMincho', serif;
+  font-weight: 500;
+}
+
+.people-and-people-coments p {
+  font-size: 14px;
+  line-height: 2.6;
 }
 
 @media (max-width: 991px) {
@@ -273,6 +309,10 @@ header .small-item-in-dropdown:hover {
 
   .top-comments {
     padding: 32px 20px;
+  }
+
+  .four-imgs {
+    flex-wrap: wrap;
   }
 }
 
