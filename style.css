@@ -250,6 +250,10 @@ header .small-item-in-dropdown:hover {
   width: 92%;
 }
 
+.top-comments p {
+  margin: 0;
+}
+
 @media (max-width: 991px) {
   .top img {
     margin-top: 0;
@@ -285,7 +289,6 @@ header .small-item-in-dropdown:hover {
   }
 
   .top-comments p {
-    margin: 0;
     line-height: 2;
     font-size: 14px;
   }
