@@ -234,23 +234,20 @@ header .small-item-in-dropdown:hover {
   text-align: center;
 }
 
-.top-black h2 {
-  line-height: 1.5;
-  margin-bottom: 10px;
-}
-
-.top-black p {
-  font-size: 14px;
-  line-height: 2.6;
-}
-
 .top-comments {
   padding: 51px 0 79px 0;
   margin: 0 auto;
   width: 92%;
 }
 
+.top-comments h2 {
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
 .top-comments p {
+  font-size: 14px;
+  line-height: 2.6;
   margin: 0;
 }
 
