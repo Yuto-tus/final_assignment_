@@ -266,7 +266,8 @@ header .small-item-in-dropdown:hover {
 @media (max-width: 767px) {
   .top img {
     height: 50vh;
-    min-height: 360px;  }
+    min-height: 360px;
+  }
 
   .top-comment h1 {
     font-size: 20px;
