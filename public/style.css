@@ -251,6 +251,10 @@ header .small-item-in-dropdown:hover {
   margin: 0;
 }
 
+.cards {
+  
+}
+
 @media (max-width: 991px) {
   .top img {
     margin-top: 0;
