@@ -251,6 +251,36 @@ header .small-item-in-dropdown:hover {
   margin: 0;
 }
 
+.cards {
+  justify-content: space-between;
+  margin: 0 85px 100px;
+}
+
+.a-card {
+  width: 31%;
+  justify-content: space-between;
+  border: none;
+  background-color: #f5f5f5;
+}
+
+.cards-btn {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cards-btn a {
+  background-color: #000;
+  height: 55px;
+  padding: 0;
+  min-width: 200px;
+  font-size: 14px;
+  line-height: 55px;
+}
+
+.cards-btn a:hover {
+  background-color: #442602;
+}
+
 @media (max-width: 991px) {
   .top img {
     margin-top: 0;
