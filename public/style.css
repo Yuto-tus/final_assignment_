@@ -252,14 +252,7 @@ header .small-item-in-dropdown:hover {
 }
 
 .cards {
-  justify-content: space-between;
-  margin: 0 85px 100px;
-}
-
-.a-card {
-  justify-content: space-between;
-  border: none;
-  background-color: #f5f5f5;
+  
 }
 
 @media (max-width: 991px) {
