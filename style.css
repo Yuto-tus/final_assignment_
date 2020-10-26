@@ -263,10 +263,6 @@ header .small-item-in-dropdown:hover {
   background-color: #f5f5f5;
 }
 
-.card-insert::before {
-  content: "";
-}
-
 .cards-btn {
   margin: 0 auto;
   text-align: center;
@@ -325,10 +321,6 @@ header .small-item-in-dropdown:hover {
   .top-comments p {
     line-height: 2;
     font-size: 14px;
-  }
-
-  .cards {
-    
   }
 }
 
