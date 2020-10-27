@@ -109,6 +109,10 @@ header .small-item-in-dropdown:hover {
     height: 100%;
   }
 
+  header .navbar li {
+    background-color: #000;
+  }
+
   header .brand-wrap {
     height: 60px;
     padding: 0;
