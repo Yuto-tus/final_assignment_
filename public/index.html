@@ -1,114 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>課題</title>
+  </head>
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-  <link rel="stylesheet" href="./style.css" />
-  <title>課題</title>
-</head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand brand-wrap" href="#"
+          ><img src="./images/logo-switch.png" alt="switch"
+        /></a>
+        <button
+          class="navbar-toggler header-button"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </button>
 
-<body>
-  <header>
-    <nav class="navbar navbar-expand-lg">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav menu">
+            <li class="nav-item">
+              <a class="nav-link header-item" href="#">HOME</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle header-item header-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                CONCEPT
+              </a>
+              <div class="dropdown-menu dropdown-group" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item small-item-in-dropdown" href="#">ブログアーカイブ</a>
+                <a class="dropdown-item small-item-in-dropdown" href="#">お知らせアーカイブ</a>
+                <a class="dropdown-item small-item-in-dropdown" href="#">イベントアーカイブ</a>
+                <a class="dropdown-item small-item-in-dropdown" href="#">インタビューアーカイブ</a>
+                <a class="dropdown-item small-item-in-dropdown" href="#">FAQページ</a>
+                <a class="dropdown-item small-item-in-dropdown" href="#"
+                  >固定ページ（デフォルト）</a
+                >
+                <a class="dropdown-item small-item-in-dropdown" href="#">CONCEPT</a>
+                <a class="dropdown-item small-item-in-dropdown" href="#">SERVICE</a>
+                <a class="dropdown-item small-item-in-dropdown" href="#">FLOOR</a>
+                <a class="dropdown-item small-item-in-dropdown" href="#">ACCESS</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link header-item" href="#">SERVICE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link header-item" href="#">FLOOR</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link header-item" href="#">INTERVIEW</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link header-item" href="#">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link header-item" href="#">ACCESS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link header-item" href="#">DOWNLOAD</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-      <a class="navbar-brand brand-wrap" href="#"><img src="./images/logo-switch.png" alt="switch" /></a>
-      <button class="navbar-toggler header-button" type="button" data-toggle="collapse"
-        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="hamburger">
-          <span></span>
-          <span></span>
-          <span></span>
-        </span>
-      </button>
-
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav menu">
-          <li class="nav-item">
-            <a class="nav-link header-item" href="#">HOME</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle header-item header-toggle" href="#" id="navbarDropdown" role="button"
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              CONCEPT
-            </a>
-            <div class="dropdown-menu dropdown-group" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item small-item-in-dropdown" href="#">ブログアーカイブ</a>
-              <a class="dropdown-item small-item-in-dropdown" href="#">お知らせアーカイブ</a>
-              <a class="dropdown-item small-item-in-dropdown" href="#">イベントアーカイブ</a>
-              <a class="dropdown-item small-item-in-dropdown" href="#">インタビューアーカイブ</a>
-              <a class="dropdown-item small-item-in-dropdown" href="#">FAQページ</a>
-              <a class="dropdown-item small-item-in-dropdown" href="#">固定ページ（デフォルト）</a>
-              <a class="dropdown-item small-item-in-dropdown" href="#">CONCEPT</a>
-              <a class="dropdown-item small-item-in-dropdown" href="#">SERVICE</a>
-              <a class="dropdown-item small-item-in-dropdown" href="#">FLOOR</a>
-              <a class="dropdown-item small-item-in-dropdown" href="#">ACCESS</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link header-item" href="#">SERVICE</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link header-item" href="#">FLOOR</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link header-item" href="#">INTERVIEW</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link header-item" href="#">BLOG</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link header-item" href="#">ACCESS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link header-item" href="#">DOWNLOAD</a>
-          </li>
-        </ul>
+    <main>
+      <div class="top">
+        <img src="https://pbs.twimg.com/media/DuirMa2VAAA96Po.jpg" alt="カフェのイメージ画像" />
+        <div class="top-comment">
+          <h1>そうだ。<br />カフェに行こう。</h1>
+        </div>
       </div>
-    </nav>
-  </header>
-
-  <main>
-    <div class="top">
-      <img src="https://pbs.twimg.com/media/DuirMa2VAAA96Po.jpg" alt="カフェのイメージ画像" />
-      <div class="top-comment">
-        <h1>そうだ。<br />カフェに行こう。</h1>
+      <div class="top-black">
+        <div class="top-comments">
+          <h2>カフェで読書＆コワーキング。快適のフロアスペース空間。</h2>
+          <p>
+            カフェエリアでコーヒーを注文し、ブックエリアでお好みの本を選び、コワーキングスペースでコーヒーと共に読書を楽しむ。<br />学校・仕事帰りに、平日の日中に、休日にゆっくり...さまざまなライフスタイルに合わせてご利用いただける多彩なプランをご用意しております。
+          </p>
+        </div>
       </div>
-    </div>
-    <div class="top-black">
-      <div class="top-comments">
-        <h2>カフェで読書＆コワーキング。快適のフロアスペース空間。</h2>
-        <p>
-          カフェエリアでコーヒーを注文し、ブックエリアでお好みの本を選び、コワーキングスペースでコーヒーと共に読書を楽しむ。<br />学校・仕事帰りに、平日の日中に、休日にゆっくり...さまざまなライフスタイルに合わせてご利用いただける多彩なプランをご用意しております。
-        </p>
+
+      <div class="cards d-flex">
+        <div class="card a-card">
+          <p class="card-insert">CONCEPT</p>
+          <img class="card-img-top rounded-0" src="./images/top_3box_1.jpg" alt="Card image cap" />
+          <div class="card-body">
+            <p class="card-text">
+              「本屋」でも「自習室」でもない、新しい空間。それがこのカフェ＆コワーキングです。<br />お好きなドリンクを飲みながらゆったりと気兼ねなく勉強や仕事に取り組んでいただけます。
+            </p>
+            <p class="cards-btn">
+              <a href="#" class="btn rounded-0 btn-primary">コンセプト</a>
+            </p>
+          </div>
+        </div>
+        <div class="card a-card">
+          <img class="card-img-top rounded-0" src="./images/top_3box_2.jpg" alt="Card image cap" />
+          <div class="card-body">
+            <p class="card-text">
+              喫茶・軽食を楽しめるカフェスペース。ビジネス書から最新の雑誌まで取りそろえるブックスペース。ブース型のパーソナルワークスペースに、開放感があるコワーキングスペース。
+            </p>
+            <p class="cards-btn">
+              <a href="#" class="btn rounded-0 btn-primary">サービス</a>
+            </p>
+          </div>
+        </div>
+        <div class="card a-card">
+          <img class="card-img-top rounded-0" src="./images/top_3box_3.jpg" alt="Card image cap" />
+          <div class="card-body">
+            <p class="card-text">
+              カフェ・ブック・コワーキング。各エリアで異なるコンセプトを持つ当店では、目的や気分に合わせてフロア内を移動することで充実した時間をお過ごしいただけます。
+            </p>
+            <p class="cards-btn">
+              <a href="#" class="btn rounded-0 btn-primary">フロアー</a>
+            </p>
+          </div>
+        </div>
       </div>
-    </div>
-
-
-
-
     </main>
-      <footer></footer>
+    <footer></footer>
 
-
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
-</body>
-
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
