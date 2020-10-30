@@ -258,7 +258,6 @@ header .small-item-in-dropdown:hover {
 
 @media (max-width: 991px) {
   .top img {
-    margin-top: 0;
     height: 75vh;
     min-height: 600px;
   }
