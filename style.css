@@ -13,11 +13,24 @@ h2 {
   font-size: 36px;
 }
 
-h1 h2 {
+h1, h2 {
   font-family: 'Times New Roman', '游明朝', 'Yu Mincho', '游明朝体', 'YuMincho',
     'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', 'HiraMinProN-W3', 'HGS明朝E', 'ＭＳ Ｐ明朝',
     'MS PMincho', serif;
   font-weight: 500;
+  margin-top: 0;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  h2 {
+    font-size: 20px;
+    line-height: 1.5;
+  }
 }
 
 /*<--------- common */
@@ -273,10 +286,7 @@ header .small-item-in-dropdown:hover {
 .people-and-people-coments h2 {
   color: #442606;
   line-height: 1.5;
-  font-family: 'Times New Roman', '游明朝', 'Yu Mincho', '游明朝体', 'YuMincho',
-    'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', 'HiraMinProN-W3', 'HGS明朝E', 'ＭＳ Ｐ明朝',
-    'MS PMincho', serif;
-  font-weight: 500;
+  margin-bottom: 10px;
 }
 
 .people-and-people-coments p {
@@ -322,6 +332,27 @@ header .small-item-in-dropdown:hover {
 
   .four-imgs img {
     width: 50%;
+  }
+
+  .people-and-people {
+    margin: 40px 20px;
+  }
+
+  .people-and-people-coments {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .people-and-people-coments h2 {
+    margin-bottom: 6px;
+  }
+
+  .people-and-people-coments p {
+    line-height: 2.0;
+  }
+
+  .people-and-people-coments {
+    padding: 36px 25px 33px;
   }
 }
 
