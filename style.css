@@ -228,16 +228,13 @@ header .small-item-in-dropdown:hover {
   color: #fff;
 }
 
-.top-black {
-  background-color: #000;
-  color: #fff;
-  text-align: center;
-}
+
 
 .top-comments {
   padding: 51px 0 79px 0;
-  margin: 0 auto;
-  width: 92%;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
 }
 
 .top-comments h2 {
@@ -258,7 +255,7 @@ header .small-item-in-dropdown:hover {
   }
 
   .top-comments {
-    width: 89%;
+    padding: 51px 50px 79px 50px;
   }
 }
 
@@ -272,13 +269,12 @@ header .small-item-in-dropdown:hover {
     font-size: 20px;
   }
 
-  .top-black {
-    margin-bottom: 40px;
-  }
+
 
   .top-comments {
     width: 100%;
     padding: 32px 20px;
+    margin-bottom: 40px;
   }
 
   .top-comments h2 {
