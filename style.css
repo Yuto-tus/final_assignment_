@@ -97,6 +97,45 @@ header .small-item-in-dropdown:hover {
   color: #fff;
 }
 
+
+/*<--------- header */
+
+/* ---------> main */
+
+.top {
+  background-image: url("./images/minion.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  min-height: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-comment {
+  writing-mode: vertical-rl;
+  color: #fff;
+}
+
+.top-comments {
+  padding: 51px 0 79px 0;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.top-comments h2 {
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.top-comments p {
+  font-size: 14px;
+  line-height: 2.6;
+  margin: 0;
+}
+
 @media (max-width: 991px) {
   header {
     height: 60px;
@@ -206,47 +245,7 @@ header .small-item-in-dropdown:hover {
   header .nav-link {
     padding: 0;
   }
-}
 
-/*<--------- header */
-
-/* ---------> main */
-
-.top {
-  background-image: url("./images/minion.jpg");
-  background-position: center center;
-  background-size: cover;
-  height: 100vh;
-  min-height: 750px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.top-comment {
-  writing-mode: vertical-rl;
-  color: #fff;
-}
-
-.top-comments {
-  padding: 51px 0 79px 0;
-  background-color: #000;
-  color: #fff;
-  text-align: center;
-}
-
-.top-comments h2 {
-  line-height: 1.5;
-  margin-bottom: 10px;
-}
-
-.top-comments p {
-  font-size: 14px;
-  line-height: 2.6;
-  margin: 0;
-}
-
-@media (max-width: 991px) {
   .top {
     height: 75vh;
     min-height: 600px;
