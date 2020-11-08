@@ -21,13 +21,14 @@ h2 {
   font-weight: 500;
 }
 
-.font14-to13 {
-  font-size: 14px;
-}
-
 /*<--------- common */
 
 /* ---------> header */
+
+header .menu,
+header .small-item-in-dropdown {
+  font-size: 14px;
+}
 
 header {
   height: 90px;
@@ -138,7 +139,8 @@ header .small-item-in-dropdown:hover {
 }
 
 @media (max-width: 991px) {
-  .font14-to13 {
+  .header .menu,
+  header .small-item-in-dropdown {
     font-size: 13px;
   }
 
