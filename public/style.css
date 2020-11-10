@@ -51,6 +51,7 @@ header .brand-wrap {
 }
 
 header .brand-wrap img {
+  text-align: center;
   height: 25px;
   width: 140px;
 }
@@ -164,13 +165,13 @@ header .small-item-in-dropdown:hover {
   header .brand-wrap {
     height: 60px;
     padding: 0;
-    line-height: 60px;
+    line-height: 50px;
     margin-left: 30px;
   }
 
   header .brand-wrap img {
-    height: 25px;
-    width: 140px;
+    height: 20px;
+    width: 110px;
   }
 
   header .navbar-toggler {
