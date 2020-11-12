@@ -107,7 +107,7 @@ header .small-item-in-dropdown:hover {
 
 .top {
   background-image: url("./images/minion.jpg");
-  background-position: center center;
+  background-position: center;
   background-size: cover;
   height: 100vh;
   min-height: 750px;
@@ -140,7 +140,7 @@ header .small-item-in-dropdown:hover {
 }
 
 @media (max-width: 991px) {
-  .header .menu,
+  header .menu,
   header .small-item-in-dropdown {
     font-size: 13px;
   }
