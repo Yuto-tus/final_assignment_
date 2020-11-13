@@ -21,15 +21,6 @@ h2 {
   font-weight: 500;
 }
 
-.link {
-  color: #000;
-}
-
-.link:hover {
-  text-decoration: none;
-  color: #000;
-}
-
 /*<--------- common */
 
 /* ---------> header */
@@ -103,6 +94,19 @@ header .small-item-in-dropdown:hover {
   color: #fff;
 }
 
+/* 今回のブランチで追加 */
+
+.news-link,
+.events-link {
+  color: #000;
+}
+
+.news-link:hover,
+.events-link:hover {
+  text-decoration: none;
+  color: #000;
+}
+
 .news-and-events {
   display: flex;
   justify-content: space-between;
@@ -115,25 +119,51 @@ header .small-item-in-dropdown:hover {
   background-color: #f5f5f5;
 }
 
+.news,
+.events {
+  width: 48%;
+}
+
 .information-title h2 {
   font-size: 45px;
-  line-height: 1.0;
+  line-height: 1;
   margin: 0;
 }
 
-.news-article {
+.news-article,
+.events-article {
   padding: 20px;
   border: 1px solid #ddd;
   background: #fff;
   margin-top: -1px;
 }
 
-.news-link h3 {
+.news-link h3,
+.event-content h3 {
   margin-bottom: 0;
   overflow: hidden;
   font-size: 16px;
   font-weight: 400;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
+
+.events-link {
+  display: flex;
+}
+
+.events-img {
+  width: 207px;
+  margin: -1px;
+  overflow: hidden;
+}
+
+.events-img img {
+  height: auto;
+  width:100%;
+}
+
+/* 今回のブランチで追加 */
 
 @media (max-width: 991px) {
   header {
