@@ -132,20 +132,30 @@ header .small-item-in-dropdown:hover {
 
 .news-article,
 .events-article {
-  padding: 20px;
   border: 1px solid #ddd;
   background: #fff;
   margin-top: -1px;
 }
 
+.news-article {
+  padding: 20px;
+}
+
 .news-link h3,
 .event-content h3 {
-  margin-bottom: 0;
   overflow: hidden;
   font-size: 16px;
   font-weight: 400;
   text-overflow: ellipsis;
+}
+
+.news-link h3 {
+  margin-bottom: 0;
   white-space: nowrap;
+}
+
+.event-content {
+  flex: 1;
 }
 
 .events-link {
@@ -160,7 +170,7 @@ header .small-item-in-dropdown:hover {
 
 .events-img img {
   height: auto;
-  width:100%;
+  width: 100%;
 }
 
 /* 今回のブランチで追加 */
