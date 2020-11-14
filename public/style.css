@@ -1,0 +1,296 @@
+/* ---------> common */
+
+button:focus {
+  outline: 0;
+}
+
+body {
+  font-family: "Segoe UI", Verdana, "游ゴシック", YuGothic,
+    "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+body h1,
+h2 {
+  font-family: "Times New Roman", "游明朝", "Yu Mincho", "游明朝体", "YuMincho",
+    "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "HiraMinProN-W3", "HGS明朝E",
+    "ＭＳ Ｐ明朝", "MS PMincho", serif;
+  font-weight: 500;
+}
+
+/*<--------- common */
+
+/* ---------> header */
+
+header .menu,
+header .small-item-in-dropdown {
+  font-size: 14px;
+}
+
+header {
+  height: 90px;
+  position: absolute;
+  z-index: 1000;
+  width: 100%;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+header .navbar {
+  padding: 0;
+  height: 90px;
+}
+
+header .brand-wrap {
+  margin-left: 40px;
+}
+
+header .brand-wrap img {
+  text-align: center;
+  height: 25px;
+  width: 140px;
+}
+
+header .navbar-brand {
+  padding-bottom: 10px;
+}
+
+header .menu {
+  width: 80%;
+  margin-left: auto;
+  height: 90px;
+  margin-right: 40px;
+}
+
+header .menu li {
+  margin: auto;
+}
+
+header .header-item {
+  width: 100%;
+  color: #fff;
+  padding: 34px 0;
+}
+
+header .header-item:hover {
+  color: #999;
+}
+
+header .dropdown-group {
+  margin-top: 0;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+}
+
+header .small-item-in-dropdown {
+  width: 220px;
+  color: #fff;
+  height: auto;
+  padding: 15px 18px;
+  background-color: #000;
+}
+
+header .small-item-in-dropdown:hover {
+  background-color: #442606;
+  color: #fff;
+}
+
+/*<--------- header */
+
+/* ---------> main */
+
+.top {
+  background-image: url("./images/minion.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  min-height: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-comment {
+  writing-mode: vertical-rl;
+  color: #fff;
+}
+
+.top-comments {
+  padding: 51px 0 79px 0;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.top-comments h2 {
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.top-comments p {
+  font-size: 14px;
+  line-height: 2.6;
+  margin: 0;
+}
+
+@media (max-width: 991px) {
+  header .menu,
+  header .small-item-in-dropdown {
+    font-size: 13px;
+  }
+
+  header {
+    height: 60px;
+    position: inherit;
+  }
+
+  nav {
+    background-color: #000;
+  }
+
+  header .navbar {
+    height: 100%;
+  }
+
+  header .navbar li {
+    background-color: #000;
+  }
+
+  header .brand-wrap {
+    height: 60px;
+    padding: 0;
+    line-height: 50px;
+    margin-left: 30px;
+  }
+
+  header .brand-wrap img {
+    height: 20px;
+    width: 110px;
+  }
+
+  header .navbar-toggler {
+    padding: 0;
+    border: none;
+  }
+
+  header .header-button {
+    width: 50px;
+    height: 44px;
+  }
+
+  header .header-button .hamburger {
+    position: relative;
+    padding: 0 11px;
+    text-align: center;
+  }
+
+  header .hamburger span {
+    position: absolute;
+    width: 15px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 2px;
+    left: 4px;
+  }
+
+  header .hamburger span:nth-of-type(1) {
+    top: 6px;
+  }
+
+  header .hamburger span:nth-of-type(2) {
+    top: 11px;
+  }
+
+  header .hamburger span:nth-of-type(3) {
+    bottom: 8px;
+  }
+
+  header .menu {
+    height: auto;
+    margin: 0;
+    width: 100%;
+  }
+
+  header .menu li {
+    padding: 15px 0 15px 30px;
+    width: 100%;
+    text-align: left;
+  }
+
+  header .menu li:nth-child(2) {
+    padding: 0 0 0 30px;
+  }
+
+  header .header-toggle {
+    margin: 15px 0;
+  }
+
+  header .header-item:hover {
+    color: #fff;
+  }
+
+  header .small-item-in-dropdown {
+    width: 100%;
+    padding-left: 13px;
+  }
+
+  header .small-item-in-dropdown:first-child {
+    margin-top: 0;
+  }
+
+  header .small-item-in-dropdown:hover {
+    background-color: #000;
+  }
+
+  header .nav-link {
+    padding: 0;
+  }
+
+  .top {
+    height: 75vh;
+    min-height: 600px;
+  }
+
+  .top-comments {
+    padding: 51px 50px 79px;
+  }
+}
+
+@media (max-width: 767px) {
+  h1,
+  h2 {
+    font-size: 20px;
+  }
+
+  .top {
+    height: 50vh;
+    min-height: 360px;
+  }
+
+  .top-comments {
+    width: 100%;
+    padding: 32px 20px;
+    margin-bottom: 40px;
+  }
+
+  .top-comments h2 {
+    line-height: 1.5;
+    margin-bottom: 5px;
+  }
+
+  .top-comments p {
+    line-height: 2;
+  }
+}
+
+/*<--------- main */
+
+/* ---------> footer */
+
+/*<--------- footer */
