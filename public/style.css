@@ -21,6 +21,11 @@ h2 {
   font-weight: 500;
 }
 
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 /*<--------- common */
 
 /* ---------> header */
@@ -137,6 +142,38 @@ header .small-item-in-dropdown:hover {
   font-size: 14px;
   line-height: 2.6;
   margin: 0;
+}
+
+.people-and-people {
+  background-color: #f5f5f5;
+  margin: 100px auto;
+  width: 92.1875%;
+  max-width: 1180px;
+}
+
+.four-imgs {
+  display: flex;
+  justify-content: center;
+}
+
+.four-imgs img {
+  width: 25%;
+}
+
+.people-and-people-coments {
+  padding: 51px 20px 49px;
+  text-align: center;
+}
+
+.people-and-people-coments h2 {
+  color: #442606;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.people-and-people-coments p {
+  font-size: 14px;
+  line-height: 2.6;
 }
 
 @media (max-width: 991px) {
@@ -260,12 +297,20 @@ header .small-item-in-dropdown:hover {
   .top-comments {
     padding: 51px 50px 79px;
   }
+
+  .people-and-people {
+    width: 90%;
+  }
 }
 
 @media (max-width: 767px) {
   h1,
   h2 {
     font-size: 20px;
+  }
+
+  h2 {
+    line-height: 1.5;
   }
 
   .top {
@@ -286,6 +331,35 @@ header .small-item-in-dropdown:hover {
 
   .top-comments p {
     line-height: 2;
+  }
+
+  .four-imgs {
+    flex-wrap: wrap;
+  }
+
+  .four-imgs img {
+    width: 50%;
+  }
+
+  .people-and-people {
+    margin: 40px 20px;
+  }
+
+  .people-and-people-coments {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .people-and-people-coments h2 {
+    margin-bottom: 6px;
+  }
+
+  .people-and-people-coments p {
+    line-height: 2;
+  }
+
+  .people-and-people-coments {
+    padding: 36px 25px 33px;
   }
 }
 
