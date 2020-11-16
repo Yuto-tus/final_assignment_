@@ -155,13 +155,21 @@ header .small-item-in-dropdown:hover {
   line-height: 1;
 }
 
-.event-content {
-  flex: 1;
-}
-
 .events-link {
   display: flex;
 }
+
+.event-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* %後で辞める */
+  padding: 0 6.11354%;
+/* %は後で辞める */
+}
+
+
 
 .events-img {
   width: 207px;
@@ -174,7 +182,7 @@ header .small-item-in-dropdown:hover {
   width: 100%;
 }
 
-.events-link:hover  .events-img img {
+.events-link:hover .events-img img {
   transform: scale(1.2);
   transition-duration: 0.5s;
 }
