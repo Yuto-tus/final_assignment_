@@ -113,7 +113,7 @@ header .small-item-in-dropdown:hover {
 
 /* ---------> main */
 
-.top {
+#top {
   background-image: url("./images/minion.jpg");
   background-position: center;
   background-size: cover;
@@ -129,22 +129,22 @@ header .small-item-in-dropdown:hover {
   color: #fff;
 }
 
-.top-comments {
+#top-comments {
   padding: 51px 0 79px 0;
   background-color: #000;
   color: #fff;
   text-align: center;
 }
 
-.top-comments h2 {
+#top-comments h2 {
   margin-bottom: 10px;
 }
 
-.top-comments p {
+#top-comments p {
   margin: 0;
 }
 
-.people-and-people {
+.about-us {
   background-color: #f5f5f5;
   margin: 100px auto;
   width: 92%;
@@ -160,12 +160,12 @@ header .small-item-in-dropdown:hover {
   width: 25%;
 }
 
-.people-and-people-coments {
+.about-us-coments {
   padding: 51px 20px 49px;
   text-align: center;
 }
 
-.people-and-people-coments h2 {
+.about-us-coments h2 {
   color: #442606;
   margin-bottom: 10px;
 }
@@ -283,16 +283,16 @@ header .small-item-in-dropdown:hover {
     padding: 0;
   }
 
-  .top {
+  #top {
     height: 75vh;
     min-height: 600px;
   }
 
-  .top-comments {
+  #top-comments {
     padding: 51px 50px 79px;
   }
 
-  .people-and-people {
+  .about-us {
     width: 90%;
   }
 }
@@ -307,18 +307,18 @@ header .small-item-in-dropdown:hover {
     line-height: 2;
   }
 
-  .top {
+  #top {
     height: 50vh;
     min-height: 360px;
   }
 
-  .top-comments {
+  #top-comments {
     width: 100%;
     padding: 32px 20px;
     margin-bottom: 40px;
   }
 
-  .top-comments h2 {
+  #top-comments h2 {
     margin-bottom: 5px;
   }
 
@@ -330,20 +330,20 @@ header .small-item-in-dropdown:hover {
     width: 50%;
   }
 
-  .people-and-people {
+  .about-us {
     margin: 40px auto;
   }
 
-  .people-and-people-coments {
+  .about-us-coments {
     width: 100%;
     padding: 0 20px;
   }
 
-  .people-and-people-coments h2 {
+  .about-us-coments h2 {
     margin-bottom: 6px;
   }
 
-  .people-and-people-coments {
+  .about-us-coments {
     padding: 36px 25px 33px;
   }
 }
