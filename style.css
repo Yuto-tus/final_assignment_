@@ -124,6 +124,10 @@ header .small-item-in-dropdown:hover {
   width: 48%;
 }
 
+.information-title {
+  margin-bottom: 35px;
+}
+
 .information-title h2 {
   font-size: 45px;
   line-height: 1;
@@ -166,10 +170,8 @@ header .small-item-in-dropdown:hover {
   flex-direction: column;
   /* %後で辞める */
   padding: 0 6.11354%;
-/* %は後で辞める */
+  /* %は後で辞める */
 }
-
-
 
 .events-img {
   width: 207px;
