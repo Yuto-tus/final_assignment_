@@ -160,12 +160,12 @@ header .small-item-in-dropdown:hover {
   width: 25%;
 }
 
-#about-us-coments {
+.about-us-coments {
   padding: 51px 20px 49px;
   text-align: center;
 }
 
-#about-us-coments h2 {
+.about-us-coments h2 {
   color: #442606;
   margin-bottom: 10px;
 }
@@ -334,16 +334,16 @@ header .small-item-in-dropdown:hover {
     margin: 40px auto;
   }
 
-  #about-us-coments {
+  .about-us-coments {
     width: 100%;
     padding: 0 20px;
   }
 
-  #about-us-coments h2 {
+  .about-us-coments h2 {
     margin-bottom: 6px;
   }
 
-  #about-us-coments {
+  .about-us-coments {
     padding: 36px 25px 33px;
   }
 }
