@@ -144,7 +144,7 @@ header .small-item-in-dropdown:hover {
   margin: 0;
 }
 
-.about-us {
+#about-us {
   background-color: #f5f5f5;
   margin: 100px auto;
   width: 92%;
@@ -160,12 +160,12 @@ header .small-item-in-dropdown:hover {
   width: 25%;
 }
 
-.about-us-coments {
+#about-us-coments {
   padding: 51px 20px 49px;
   text-align: center;
 }
 
-.about-us-coments h2 {
+#about-us-coments h2 {
   color: #442606;
   margin-bottom: 10px;
 }
@@ -292,7 +292,7 @@ header .small-item-in-dropdown:hover {
     padding: 51px 50px 79px;
   }
 
-  .about-us {
+  #about-us {
     width: 90%;
   }
 }
@@ -330,20 +330,20 @@ header .small-item-in-dropdown:hover {
     width: 50%;
   }
 
-  .about-us {
+  #about-us {
     margin: 40px auto;
   }
 
-  .about-us-coments {
+  #about-us-coments {
     width: 100%;
     padding: 0 20px;
   }
 
-  .about-us-coments h2 {
+  #about-us-coments h2 {
     margin-bottom: 6px;
   }
 
-  .about-us-coments {
+  #about-us-coments {
     padding: 36px 25px 33px;
   }
 }
