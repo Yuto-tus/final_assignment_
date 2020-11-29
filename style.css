@@ -351,11 +351,45 @@ header .small-item-in-dropdown:hover {
   .events {
     margin-bottom: 30px;
   }
-
 }
 
-@media (max-width:767px) {
-  .events-img{
+@media (max-width: 767px) {
+  .information-title {
+    margin-bottom: 20px;
+  }
+
+  .information-title h2 {
+    font-size: 22px;
+  }
+
+  .information-title span {
+    margin-left: 12px;
+    font-size: 14px;
+  }
+
+  .news-time {
+    margin-bottom: 6px;
+    font-size: 10px;
+  }
+
+  .news-link h3,
+  .events-link h3 {
+    overflow: visible;
+    font-size: 14px;
+    line-height: 1.8;
+    text-overflow: clip;
+    white-space: normal;
+  }
+
+  .events-link h3 {
+    margin-bottom: 6px;
+  }
+
+  .events-time {
+    font-size: 10px;
+  }
+
+  .events-img {
     display: none;
   }
 
@@ -364,7 +398,7 @@ header .small-item-in-dropdown:hover {
   }
 }
 
- /*今回のブランチで追加*/
+/*今回のブランチで追加*/
 
 /*<--------- header */
 
