@@ -113,7 +113,7 @@ header .small-item-in-dropdown:hover {
 
 /* ---------> main */
 
-#top {
+#top .top-img {
   background-image: url("./images/minion.jpg");
   background-position: center;
   background-size: cover;
@@ -124,23 +124,23 @@ header .small-item-in-dropdown:hover {
   align-items: center;
 }
 
-.top-comment {
+#top .top-comment {
   writing-mode: vertical-rl;
   color: #fff;
 }
 
-#top-comments {
+#top .top-comments {
   padding: 51px 0 79px 0;
   background-color: #000;
   color: #fff;
   text-align: center;
 }
 
-#top-comments h2 {
+#top .top-comments h2 {
   margin-bottom: 10px;
 }
 
-#top-comments p {
+#top .top-comments p {
   margin: 0;
 }
 
@@ -151,21 +151,21 @@ header .small-item-in-dropdown:hover {
   max-width: 1180px;
 }
 
-.four-imgs {
+#about-us .four-imgs {
   display: flex;
   justify-content: center;
 }
 
-.four-imgs img {
+#about-us .four-imgs img {
   width: 25%;
 }
 
-.about-us-coments {
+#about-us .about-us-coments {
   padding: 51px 20px 49px;
   text-align: center;
 }
 
-.about-us-coments h2 {
+#about-us .about-us-coments h2 {
   color: #442606;
   margin-bottom: 10px;
 }
@@ -283,12 +283,12 @@ header .small-item-in-dropdown:hover {
     padding: 0;
   }
 
-  #top {
+  #top .top-img {
     height: 75vh;
     min-height: 600px;
   }
 
-  #top-comments {
+  #top .top-comments {
     padding: 51px 50px 79px;
   }
 
@@ -307,26 +307,26 @@ header .small-item-in-dropdown:hover {
     line-height: 2;
   }
 
-  #top {
+  #top .top-img {
     height: 50vh;
     min-height: 360px;
   }
 
-  #top-comments {
+  #top .top-comments {
     width: 100%;
     padding: 32px 20px;
     margin-bottom: 40px;
   }
 
-  #top-comments h2 {
+  #top .top-comments h2 {
     margin-bottom: 5px;
   }
 
-  .four-imgs {
+  #top .four-imgs {
     flex-wrap: wrap;
   }
 
-  .four-imgs img {
+  #top .four-imgs img {
     width: 50%;
   }
 
@@ -334,16 +334,16 @@ header .small-item-in-dropdown:hover {
     margin: 40px auto;
   }
 
-  .about-us-coments {
+  #about-us .about-us-coments {
     width: 100%;
     padding: 0 20px;
   }
 
-  .about-us-coments h2 {
+  #about-us .about-us-coments h2 {
     margin-bottom: 6px;
   }
 
-  .about-us-coments {
+  #about-us .about-us-coments {
     padding: 36px 25px 33px;
   }
 }
