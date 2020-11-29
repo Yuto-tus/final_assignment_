@@ -113,7 +113,7 @@ header .small-item-in-dropdown:hover {
 
 /* ---------> main */
 
-#top {
+.top-img {
   background-image: url("./images/minion.jpg");
   background-position: center;
   background-size: cover;
@@ -129,18 +129,18 @@ header .small-item-in-dropdown:hover {
   color: #fff;
 }
 
-#top-comments {
+.top-comments {
   padding: 51px 0 79px 0;
   background-color: #000;
   color: #fff;
   text-align: center;
 }
 
-#top-comments h2 {
+.top-comments h2 {
   margin-bottom: 10px;
 }
 
-#top-comments p {
+.top-comments p {
   margin: 0;
 }
 
@@ -283,12 +283,12 @@ header .small-item-in-dropdown:hover {
     padding: 0;
   }
 
-  #top {
+  .top-img {
     height: 75vh;
     min-height: 600px;
   }
 
-  #top-comments {
+  .top-comments {
     padding: 51px 50px 79px;
   }
 
@@ -307,18 +307,18 @@ header .small-item-in-dropdown:hover {
     line-height: 2;
   }
 
-  #top {
+  .top-img {
     height: 50vh;
     min-height: 360px;
   }
 
-  #top-comments {
+  .top-comments {
     width: 100%;
     padding: 32px 20px;
     margin-bottom: 40px;
   }
 
-  #top-comments h2 {
+  .top-comments h2 {
     margin-bottom: 5px;
   }
 
