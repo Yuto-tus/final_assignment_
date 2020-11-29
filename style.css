@@ -128,12 +128,20 @@ header .small-item-in-dropdown:hover {
 
 .information-title {
   margin-bottom: 35px;
+  display: flex;
+  align-items: center;
 }
 
 .information-title h2 {
   font-size: 45px;
   line-height: 1;
   margin: 0;
+  font-weight: 500;
+}
+
+.information-title span {
+  font-size: 16px;
+  margin-left: 16px;
 }
 
 .news-article,
@@ -177,7 +185,6 @@ header .small-item-in-dropdown:hover {
 
 .event-content h3 {
   line-height: 1.6;
-
 }
 
 .events-img {
@@ -208,9 +215,7 @@ header .small-item-in-dropdown:hover {
 .info-more {
   text-align: right;
   margin: 30px 0 0 0;
-
 }
-
 
 .info-more a {
   color: #000;
@@ -327,7 +332,39 @@ header .small-item-in-dropdown:hover {
   header .nav-link {
     padding: 0;
   }
+  /* 今回のブランチで追加 */
+
+  #news-and-events {
+    flex-direction: column;
+    width: 88.88889%;
+  }
+
+  .news,
+  .events {
+    width: inherit;
+  }
+
+  .news {
+    margin-bottom: 35px;
+  }
+
+  .events {
+    margin-bottom: 30px;
+  }
+
 }
+
+@media (max-width:767px) {
+  .events-img{
+    display: none;
+  }
+
+  .event-content {
+    padding: 10px 20px 16px;
+  }
+}
+
+ /*今回のブランチで追加*/
 
 /*<--------- header */
 
