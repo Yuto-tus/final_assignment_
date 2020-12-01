@@ -139,6 +139,70 @@ header .small-item-in-dropdown:hover {
   margin: 0;
 }
 
+/* 今回のブランチで追加 */
+#plans {
+  width: 92%;
+  margin: 0 auto;
+}
+
+.cards {
+  margin-bottom: 40px;
+}
+
+.a-card {
+  width: 31%;
+  text-align: center;
+}
+
+.plan-title {
+  height: 60px;
+  background: #a19283;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+  flex: inherit;
+}
+.plan-title h5 {
+  line-height: 60px;
+}
+
+.plan-list {
+  font-size: 14px;
+  border: 1px solid #ddd;
+  line-height: 1.4;
+}
+
+
+.card-li-top {
+  padding: 24.5px 0;
+  background: #ece9e6;
+  line-height: 1;
+}
+
+.plan-list li:not(.card-li-top) {
+  padding: 20px 10px;
+}
+
+.plan-price {
+  color: #442506;
+
+  margin-bottom: 16px;
+  font-family: Arial, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.plan-price span {
+  font-size: 20px;
+}
+
+.plan-price + p {
+  margin: 0;
+}
+
+/* 今回のブランチで追加 */
+
 @media (max-width: 991px) {
   header .menu,
   header .small-item-in-dropdown {
