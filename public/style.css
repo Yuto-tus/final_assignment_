@@ -153,7 +153,6 @@ header .small-item-in-dropdown:hover {
 
 #about-us .four-imgs {
   display: flex;
-  justify-content: center;
 }
 
 #about-us .four-imgs img {
@@ -322,16 +321,16 @@ header .small-item-in-dropdown:hover {
     margin-bottom: 5px;
   }
 
-  #top .four-imgs {
+  #about-us {
+    margin: 40px auto;
+  }
+
+  #about-us .four-imgs {
     flex-wrap: wrap;
   }
 
-  #top .four-imgs img {
+  #about-us .four-imgs img {
     width: 50%;
-  }
-
-  #about-us {
-    margin: 40px auto;
   }
 
   #about-us .about-us-coments {
