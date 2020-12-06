@@ -336,14 +336,11 @@ header .small-item-in-dropdown:hover {
   #about-us .about-us-coments {
     width: 100%;
     padding: 0 20px;
+    padding: 36px 25px 33px;
   }
 
   #about-us .about-us-coments h2 {
     margin-bottom: 6px;
-  }
-
-  #about-us .about-us-coments {
-    padding: 36px 25px 33px;
   }
 }
 
