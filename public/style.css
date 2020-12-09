@@ -124,7 +124,7 @@ header .small-item-in-dropdown:hover {
   align-items: center;
 }
 
-#top .top-title {
+#top .top-img h1 {
   writing-mode: vertical-rl;
   color: #fff;
 }
@@ -151,20 +151,20 @@ header .small-item-in-dropdown:hover {
   max-width: 1180px;
 }
 
-#about-us .four-imgs {
+#about-us .about-us-imgs {
   display: flex;
 }
 
-#about-us .four-imgs img {
+#about-us .about-us-imgs img {
   width: 25%;
 }
 
-#about-us .about-us-coments {
+#about-us .about-us-comments {
   padding: 51px 20px 49px;
   text-align: center;
 }
 
-#about-us .about-us-coments h2 {
+#about-us .about-us-comments h2 {
   color: #442606;
   margin-bottom: 10px;
 }
@@ -325,21 +325,20 @@ header .small-item-in-dropdown:hover {
     margin: 40px auto;
   }
 
-  #about-us .four-imgs {
+  #about-us .about-us-imgs {
     flex-wrap: wrap;
   }
 
-  #about-us .four-imgs img {
+  #about-us .about-us-imgs img {
     width: 50%;
   }
 
-  #about-us .about-us-coments {
+  #about-us .about-us-comments {
     width: 100%;
-    padding: 0 20px;
     padding: 36px 25px 33px;
   }
 
-  #about-us .about-us-coments h2 {
+  #about-us .about-us-comments h2 {
     margin-bottom: 6px;
   }
 }
