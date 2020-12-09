@@ -148,7 +148,6 @@ header .small-item-in-dropdown:hover {
   background-color: #f5f5f5;
   margin: 100px auto;
   width: 92%;
-  max-width: 1180px;
 }
 
 #about-us .about-us-imgs {
@@ -334,7 +333,6 @@ header .small-item-in-dropdown:hover {
   }
 
   #about-us .about-us-comments {
-    width: 100%;
     padding: 36px 25px 33px;
   }
 
