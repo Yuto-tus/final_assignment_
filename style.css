@@ -147,6 +147,7 @@ header .small-item-in-dropdown:hover {
 #about-us {
   background-color: #f5f5f5;
   padding: 0;
+  margin-top: 100px;
 }
 
 #about-us .about-us-imgs {
