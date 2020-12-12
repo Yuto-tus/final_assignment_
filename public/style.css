@@ -322,6 +322,10 @@ header .small-item-in-dropdown:hover {
     margin-bottom: 5px;
   }
 
+  #about-us {
+    margin-top: 40px;
+  }
+
   #about-us .about-us-imgs {
     flex-wrap: wrap;
   }
