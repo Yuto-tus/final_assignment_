@@ -343,6 +343,12 @@ header .small-item-in-dropdown:hover {
   }
 }
 
+@media (max-width: 576px) {
+ #about-us {
+  max-width: 350px;
+ } 
+}
+
 /*<--------- main */
 
 /* ---------> footer */
