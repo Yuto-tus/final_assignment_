@@ -158,23 +158,26 @@ header .small-item-in-dropdown:hover {
   border-radius: 0;
 }
 
-.a-card:nth-child(2) > ul {
+.a-card:nth-child(2) {
   border: 5px solid #442607;
 }
 
 .plan-title {
-  height: 60px;
   background: #a19283;
   color: #fff;
-  font-weight: 700;
 }
 
 .a-card:nth-child(2) > .plan-title {
   background-color: #442506;
 }
 
+.a-card:nth-child(2) > .plan-title h5 {
+  margin: 19px 0 14px 0;
+}
+
 .plan-title h5 {
-  line-height: 60px;
+  font-weight: 700;
+  margin: 19px 0;
 }
 
 .plan-list {
@@ -379,6 +382,25 @@ header .small-item-in-dropdown:hover {
     width: 100%;
     margin-bottom: 25px;
   }
+
+  .plan-title {
+    height: 45px;
+  }
+
+  .plan-title h5 {
+    line-height: 45px;
+    font-size: 16px;
+  }
+
+  .a-card:not(:nth-child(2)) > .plan-list .card-li-top {
+    padding: 17px 0;
+  }
+
+  .plan-price {
+    margin-bottom: 10px;
+    font-size: 36px;
+  }
+
   /* 今回追加 */
 }
 
