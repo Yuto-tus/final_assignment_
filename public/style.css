@@ -161,7 +161,6 @@ header .small-item-in-dropdown:hover {
 
 .a-card:nth-child(2) > ul {
   border: 5px solid #442607;
-  border-top: 0;
 }
 
 .plan-title {
