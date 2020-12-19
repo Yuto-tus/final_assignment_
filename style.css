@@ -145,7 +145,6 @@ header .small-item-in-dropdown:hover {
 }
 
 #about-us {
-  background-color: #f5f5f5;
   padding: 0;
   margin-top: 100px;
 }
@@ -161,6 +160,7 @@ header .small-item-in-dropdown:hover {
 #about-us .about-us-comments {
   padding: 51px 20px 49px;
   text-align: center;
+  background-color: #f5f5f5;
 }
 
 #about-us .about-us-comments h2 {
@@ -171,6 +171,7 @@ header .small-item-in-dropdown:hover {
 @media (min-width: 1500px) {
   #about-us {
     max-width: none;
+    padding: 0 50px;
   }
 }
 
@@ -324,6 +325,7 @@ header .small-item-in-dropdown:hover {
 
   #about-us {
     margin-top: 40px;
+    padding: 0 20px;
   }
 
   #about-us .about-us-imgs {
@@ -343,11 +345,6 @@ header .small-item-in-dropdown:hover {
   }
 }
 
-@media (max-width: 576px) {
- #about-us {
-  max-width: 350px;
- } 
-}
 
 /*<--------- main */
 
