@@ -150,6 +150,7 @@ header .small-item-in-dropdown:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: flex-start;
 }
 
 .a-card {
@@ -158,8 +159,9 @@ header .small-item-in-dropdown:hover {
   border-radius: 0;
 }
 
-.a-card:nth-child(2) {
+.a-card:nth-child(2) > ul {
   border: 5px solid #442607;
+  border-top: 0;
 }
 
 .plan-title {
@@ -169,10 +171,6 @@ header .small-item-in-dropdown:hover {
 
 .a-card:nth-child(2) > .plan-title {
   background-color: #442506;
-}
-
-.a-card:nth-child(2) > .plan-title h5 {
-  margin: 19px 0 14px 0;
 }
 
 .plan-title h5 {
@@ -190,10 +188,6 @@ header .small-item-in-dropdown:hover {
   padding: 24px 0;
   background: #ece9e6;
   line-height: 1;
-}
-
-.a-card:not(:nth-child(2)) > .plan-list .card-li-top {
-  padding: 28px 0 24px 0;
 }
 
 .plan-list li:not(.card-li-top) {
@@ -383,13 +377,10 @@ header .small-item-in-dropdown:hover {
     margin-bottom: 25px;
   }
 
-  .plan-title {
-    height: 45px;
-  }
 
   .plan-title h5 {
-    line-height: 45px;
     font-size: 16px;
+    margin: 14px 0;
   }
 
   .a-card:not(:nth-child(2)) > .plan-list .card-li-top {
