@@ -168,13 +168,6 @@ header .small-item-in-dropdown:hover {
   margin-bottom: 10px;
 }
 
-@media (min-width: 1500px) {
-  #about-us {
-    max-width: none;
-    padding: 0 50px;
-  }
-}
-
 @media (max-width: 991px) {
   header .menu,
   header .small-item-in-dropdown {
@@ -344,7 +337,6 @@ header .small-item-in-dropdown:hover {
     margin-bottom: 6px;
   }
 }
-
 
 /*<--------- main */
 
