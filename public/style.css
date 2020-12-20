@@ -141,8 +141,7 @@ header .small-item-in-dropdown:hover {
 
 /* 今回のブランチで追加 */
 #plans {
-  width: 92%;
-  margin: 0 auto;
+  padding: 0;
 }
 
 #plans .cards {
@@ -154,7 +153,6 @@ header .small-item-in-dropdown:hover {
 }
 
 #plans .a-card {
-  width: 31%;
   text-align: center;
   border-radius: 0;
 }
@@ -369,10 +367,10 @@ header .small-item-in-dropdown:hover {
 
   #plans .cards {
     flex-direction: column;
+    padding: 0 20px;
   }
 
   #plans .a-card {
-    width: 100%;
     margin-bottom: 25px;
   }
 
