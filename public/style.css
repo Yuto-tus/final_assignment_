@@ -139,6 +139,41 @@ header .small-item-in-dropdown:hover {
   margin: 0;
 }
 
+/* 今回追加 */
+#about-space .about-space-wrapper {
+  background-image: url("./images/img-about-space-background.jpg");
+  text-align: center;
+}
+
+#about-space .about-space-comments {
+  color: #fff;
+}
+
+#about-space .about-space-imgs {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+#about-space .about-space-img{
+  position: relative;
+  display: block;
+}
+
+#about-space .about-space-img span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  width: 170px;
+  height: 120px;
+  background: #fff;
+  font-size: 16px;
+  line-height: 120px;
+}
+
+/* 今回追加 */
+
 @media (max-width: 991px) {
   header .menu,
   header .small-item-in-dropdown {
