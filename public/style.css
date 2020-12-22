@@ -11,6 +11,7 @@ body {
 
 h2 {
   font-size: 36px;
+  line-height: 1.5;
 }
 
 body h1,
@@ -19,6 +20,13 @@ h2 {
     "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "HiraMinProN-W3", "HGS明朝E",
     "ＭＳ Ｐ明朝", "MS PMincho", serif;
   font-weight: 500;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 2.6;
 }
 
 /*<--------- common */
@@ -105,7 +113,7 @@ header .small-item-in-dropdown:hover {
 
 /* ---------> main */
 
-.top {
+#top .top-img {
   background-image: url("./images/minion.jpg");
   background-position: center;
   background-size: cover;
@@ -116,27 +124,48 @@ header .small-item-in-dropdown:hover {
   align-items: center;
 }
 
-.top-comment {
+#top .top-img h1 {
   writing-mode: vertical-rl;
   color: #fff;
 }
 
-.top-comments {
+#top .top-comments {
   padding: 51px 0 79px 0;
   background-color: #000;
   color: #fff;
   text-align: center;
 }
 
-.top-comments h2 {
-  line-height: 1.5;
+#top .top-comments h2 {
   margin-bottom: 10px;
 }
 
-.top-comments p {
-  font-size: 14px;
-  line-height: 2.6;
+#top .top-comments p {
   margin: 0;
+}
+
+#about-us {
+  padding: 0;
+  margin-top: 100px;
+}
+
+#about-us .about-us-imgs {
+  display: flex;
+}
+
+#about-us .about-us-imgs img {
+  width: 25%;
+}
+
+#about-us .about-us-comments {
+  padding: 51px 20px 49px;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+#about-us .about-us-comments h2 {
+  color: #442606;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 991px) {
@@ -252,12 +281,12 @@ header .small-item-in-dropdown:hover {
     padding: 0;
   }
 
-  .top {
+  #top .top-img {
     height: 75vh;
     min-height: 600px;
   }
 
-  .top-comments {
+  #top .top-comments {
     padding: 51px 50px 79px;
   }
 }
@@ -268,24 +297,44 @@ header .small-item-in-dropdown:hover {
     font-size: 20px;
   }
 
-  .top {
+  p {
+    line-height: 2;
+  }
+
+  #top .top-img {
     height: 50vh;
     min-height: 360px;
   }
 
-  .top-comments {
+  #top .top-comments {
     width: 100%;
     padding: 32px 20px;
     margin-bottom: 40px;
   }
 
-  .top-comments h2 {
-    line-height: 1.5;
+  #top .top-comments h2 {
     margin-bottom: 5px;
   }
 
-  .top-comments p {
-    line-height: 2;
+  #about-us {
+    margin-top: 40px;
+    padding: 0 20px;
+  }
+
+  #about-us .about-us-imgs {
+    flex-wrap: wrap;
+  }
+
+  #about-us .about-us-imgs img {
+    width: 50%;
+  }
+
+  #about-us .about-us-comments {
+    padding: 36px 25px 33px;
+  }
+
+  #about-us .about-us-comments h2 {
+    margin-bottom: 6px;
   }
 }
 
