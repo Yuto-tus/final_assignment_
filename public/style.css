@@ -171,7 +171,8 @@ header .small-item-in-dropdown:hover {
 #shop-infos {
   display: flex;
   justify-content: space-between;
-  margin: 100px 85px;
+  margin-top: 100px;
+  padding: 0;
 }
 
 #shop-infos .shop-info {
@@ -353,10 +354,6 @@ header .small-item-in-dropdown:hover {
     padding: 51px 50px 79px;
   }
 
-  #shop-infos {
-    margin: 100px 45px;
-  }
-
   #shop-infos .shop-infos-btn a {
     width: 150px;
   }
@@ -411,11 +408,12 @@ header .small-item-in-dropdown:hover {
   #shop-infos {
     flex-direction: column;
     margin: 40px 0 0 0;
+    padding: 0 20px;
   }
 
   #shop-infos .shop-info {
     width: auto;
-    margin: 0 20px 24px 20px;
+    margin-bottom: 20px;
   }
 
   #shop-infos .shop-info-title {
