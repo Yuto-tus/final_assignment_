@@ -254,6 +254,7 @@ header .small-item-in-dropdown:hover {
 /* 今回追加 */
 
 #shop-infos {
+  display: flex;
   justify-content: space-between;
   margin: 100px 85px;
 }
