@@ -427,6 +427,7 @@ header .small-item-in-dropdown:hover {
   #shop-infos .shop-info {
     width: auto;
     margin-bottom: 20px;
+    padding: 0;
   }
 
   #shop-infos .shop-info-title {
