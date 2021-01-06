@@ -195,7 +195,6 @@ header .small-item-in-dropdown:hover {
 
 #shop-info-cards .shop-info-body {
   padding: 30px 30px 40px;
-  position: relative;
   background-color: #f5f5f5;
 }
 
@@ -209,38 +208,24 @@ header .small-item-in-dropdown:hover {
 }
 
 #shop-info-cards .shop-info-btn {
+  text-align: center;
+}
+
+#shop-info-cards .shop-info-btn button {
   margin: 0 auto;
   padding: 0;
   text-align: center;
   border: none;
-  position: absolute;
-  bottom: 1px;
-  left: 50%;
-  transform: translate(-50%);
-}
-
-#shop-info-cards .shop-info-btn a {
-  display: inline-block;
-  color: #fff;
-  text-decoration: none;
-  background-color: #000;
   height: 55px;
-  padding: 0;
   width: 200px;
   font-size: 14px;
+  color: #fff;
+  background-color: #000;
   transition-duration: 0.2s;
-  position: relative;
 }
 
-#shop-info-cards .shop-info-btn a:hover {
+#shop-info-cards .shop-info-btn button:hover {
   background-color: #442602;
-}
-
-#shop-info-cards .shop-info-btn a span {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 #shop-info-cards .shop-info-text {
@@ -371,7 +356,7 @@ header .small-item-in-dropdown:hover {
     padding: 51px 50px 79px;
   }
 
-  #shop-info-cards .shop-info-btn a {
+  #shop-info-cards .shop-info-btn button {
     width: 150px;
   }
 }
@@ -450,11 +435,8 @@ header .small-item-in-dropdown:hover {
     padding: 18px 25px 25px;
   }
 
-  #shop-info-cards .shop-info-btn {
+  #shop-info-cards .shop-info-btn button {
     position: inherit;
-  }
-
-  #shop-info-cards .shop-info-btn a {
     width: 180px;
     height: 45px;
     font-size: 12px;
