@@ -170,6 +170,8 @@ header .small-item-in-dropdown:hover {
 }
 
 #shop-info-cards {
+  display: flex;
+  justify-content: space-between;
   margin-top: 100px;
   padding: 0;
 }
@@ -208,6 +210,7 @@ header .small-item-in-dropdown:hover {
 
 #shop-info-cards .shop-info-btn {
   margin: 0 auto;
+  padding: 0;
   text-align: center;
   border: none;
   position: absolute;
@@ -425,6 +428,7 @@ header .small-item-in-dropdown:hover {
   }
 
   #shop-info-cards {
+    flex-direction: column;
     margin-top: 40px;
     padding: 0 20px;
   }
@@ -436,7 +440,6 @@ header .small-item-in-dropdown:hover {
   #shop-info-cards .shop-info {
     width: auto;
     margin-bottom: 20px;
-    padding: 0;
   }
 
   #shop-info-cards .shop-info-title {
