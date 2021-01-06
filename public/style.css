@@ -169,21 +169,19 @@ header .small-item-in-dropdown:hover {
   margin-bottom: 10px;
 }
 
-#shop-info-cards {
+#shop-infos {
+  display: flex;
+  justify-content: space-between;
   margin-top: 100px;
   padding: 0;
 }
 
-#shop-info-cards .shop-info {
+#shop-infos .shop-info {
   border: none;
   overflow: hidden;
 }
 
-#shop-info-cards .shop-info a img {
-  border-radius: 0;
-}
-
-#shop-info-cards .shop-info-title {
+#shop-infos .shop-info-title {
   position: absolute;
   margin-left: 2px;
   font-size: 20px;
@@ -191,13 +189,13 @@ header .small-item-in-dropdown:hover {
   color: #442602;
 }
 
-#shop-info-cards .shop-info-body {
+#shop-infos .shop-info-body {
   padding: 30px 30px 40px;
   position: relative;
   background-color: #f5f5f5;
 }
 
-#shop-info-cards .shop-info::before {
+#shop-infos .shop-info::before {
   position: absolute;
   content: "";
   border-style: solid;
@@ -206,7 +204,7 @@ header .small-item-in-dropdown:hover {
   filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.5));
 }
 
-#shop-info-cards .shop-info-btn {
+#shop-infos .shop-infos-btn {
   margin: 0 auto;
   text-align: center;
   border: none;
@@ -216,7 +214,7 @@ header .small-item-in-dropdown:hover {
   transform: translate(-50%);
 }
 
-#shop-info-cards .shop-info-btn a {
+#shop-infos .shop-infos-btn a {
   display: inline-block;
   color: #fff;
   text-decoration: none;
@@ -229,18 +227,18 @@ header .small-item-in-dropdown:hover {
   position: relative;
 }
 
-#shop-info-cards .shop-info-btn a:hover {
+#shop-infos .shop-infos-btn a:hover {
   background-color: #442602;
 }
 
-#shop-info-cards .shop-info-btn a span {
+#shop-infos .shop-infos-btn a span {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-#shop-info-cards .shop-info-text {
+#shop-infos .shop-info-text {
   margin-bottom: 30px;
   font-size: 14px;
   line-height: 2.4;
@@ -368,7 +366,7 @@ header .small-item-in-dropdown:hover {
     padding: 51px 50px 79px;
   }
 
-  #shop-info-cards .shop-info-btn a {
+  #shop-infos .shop-infos-btn a {
     width: 150px;
   }
 }
@@ -382,10 +380,6 @@ header .small-item-in-dropdown:hover {
   p,
   h3 {
     line-height: 2;
-  }
-
-  .grid-system-row {
-    margin: auto;
   }
 
   #top .top-img {
@@ -424,39 +418,36 @@ header .small-item-in-dropdown:hover {
     margin-bottom: 6px;
   }
 
-  #shop-info-cards {
+  #shop-infos {
+    flex-direction: column;
     margin-top: 40px;
     padding: 0 20px;
   }
 
-  #shop-info-cards > .grid-system-row {
-    flex-direction: column;
-  }
-
-  #shop-info-cards .shop-info {
+  #shop-infos .shop-info {
     width: auto;
     margin-bottom: 20px;
   }
 
-  #shop-info-cards .shop-info-title {
+  #shop-infos .shop-info-title {
     font-size: 18px;
   }
 
-  #shop-info-cards .shop-info-body {
+  #shop-infos .shop-info-body {
     padding: 18px 25px 25px;
   }
 
-  #shop-info-cards .shop-info-btn {
+  #shop-infos .shop-infos-btn {
     position: inherit;
   }
 
-  #shop-info-cards .shop-info-btn a {
+  #shop-infos .shop-infos-btn a {
     width: 180px;
     height: 45px;
     font-size: 12px;
   }
 
-  #shop-info-cards .shop-info-text {
+  #shop-infos .shop-info-text {
     margin-bottom: 18px;
     line-height: 2;
   }
