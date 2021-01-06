@@ -143,6 +143,7 @@ header .small-item-in-dropdown:hover {
 #about-space .about-space-wrapper {
   background-image: url("./images/img-about-space-background.jpg");
   text-align: center;
+  padding: 50px 0;
 }
 
 #about-space .about-space-comments {
@@ -155,21 +156,31 @@ header .small-item-in-dropdown:hover {
   margin: auto;
 }
 
-#about-space .about-space-img{
+#about-space .about-space-img {
   position: relative;
   display: block;
+  color: #442606;
 }
 
 #about-space .about-space-img span {
   position: absolute;
   top: 0;
   right: 0;
-  z-index: 1;
   width: 170px;
   height: 120px;
   background: #fff;
   font-size: 16px;
   line-height: 120px;
+}
+
+#about-space .about-space-img span::before {
+  content: "";
+  clip-path: polygon(100% 0, 50% 100%, 100% 100%);
+  left: -120px;
+  width: 0px;
+  height: 0px;
+  border-width: 120px 60px 120px 60px;
+
 }
 
 /* 今回追加 */
