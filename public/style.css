@@ -436,7 +436,6 @@ header .small-item-in-dropdown:hover {
   }
 
   #shop-info-cards .shop-info-btn button {
-    position: inherit;
     width: 180px;
     height: 45px;
     font-size: 12px;
