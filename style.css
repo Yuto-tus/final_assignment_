@@ -211,20 +211,22 @@ header .small-item-in-dropdown:hover {
   text-align: center;
 }
 
-#shop-info-cards .shop-info-btn button {
-  margin: 0 auto;
+
+#shop-info-cards .shop-info-btn a {
+  display: inline-block;
   padding: 0;
-  text-align: center;
+  text-decoration: none;
   border: none;
-  height: 55px;
   width: 200px;
+  height: 55px;
+  line-height: 55px;
   font-size: 14px;
   color: #fff;
   background-color: #000;
   transition-duration: 0.2s;
 }
 
-#shop-info-cards .shop-info-btn button:hover {
+#shop-info-cards .shop-info-btn a:hover {
   background-color: #442602;
 }
 
@@ -356,7 +358,7 @@ header .small-item-in-dropdown:hover {
     padding: 51px 50px 79px;
   }
 
-  #shop-info-cards .shop-info-btn button {
+  #shop-info-cards .shop-info-btn a {
     width: 150px;
   }
 }
@@ -435,9 +437,10 @@ header .small-item-in-dropdown:hover {
     padding: 18px 25px 25px;
   }
 
-  #shop-info-cards .shop-info-btn button {
+  #shop-info-cards .shop-info-btn a {
     width: 180px;
     height: 45px;
+    line-height: 45px;
     font-size: 12px;
   }
 
