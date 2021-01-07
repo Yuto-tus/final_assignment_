@@ -96,78 +96,79 @@ header .small-item-in-dropdown:hover {
 
 /* 今回のブランチで追加 */
 
-.news-link,
-.events-link {
-  color: #000;
-}
-
-.news-link:hover,
-.events-link:hover,
-.info-more a:hover {
-  text-decoration: none;
-  color: #000;
-}
-
 #news-and-events {
   padding: 55px 50px 60px;
+  margin-bottom: 100px;
   display: flex;
   justify-content: space-between;
   background-color: #f5f5f5;
 }
 
-.news,
-.events {
+#news-and-events .news,
+#news-and-events .events {
   width: 48%;
 }
 
-.information-title {
+#news-and-events .news-link,
+#news-and-events .events-link {
+  color: #000;
+}
+
+#news-and-events .news-link:hover,
+#news-and-events .events-link:hover,
+#news-and-events .info-more a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+#news-and-events .information-title {
   margin-bottom: 35px;
   display: flex;
   align-items: center;
 }
 
-.information-title h2 {
+#news-and-events .information-title h2 {
   font-size: 45px;
   line-height: 1;
   margin: 0;
   font-weight: 500;
 }
 
-.information-title span {
+#news-and-events .information-title span {
   font-size: 16px;
   margin-left: 16px;
 }
 
-.news-article,
-.events-article {
+#news-and-events .news-article,
+#news-and-events .events-article {
   border: 1px solid #ddd;
   background: #fff;
   margin-top: -1px;
 }
 
-.news-article {
+#news-and-events .news-article {
   padding: 20px;
 }
 
-.news-link h3,
-.event-content h3 {
+#news-and-events .news-link h3,
+#news-and-events .event-content h3 {
   overflow: hidden;
   font-size: 16px;
   font-weight: 400;
   text-overflow: ellipsis;
 }
 
-.news-link h3 {
+#news-and-events .news-link h3 {
   margin-bottom: 0;
   white-space: nowrap;
   line-height: 1;
 }
 
-.events-link {
+#news-and-events .events-link {
   display: flex;
 }
 
-.event-content {
+#news-and-events .event-content {
   flex: 1;
   display: flex;
   justify-content: center;
@@ -175,46 +176,49 @@ header .small-item-in-dropdown:hover {
   padding: 0 25px;
 }
 
-.event-content h3 {
+#news-and-events .event-content h3 {
   line-height: 1.6;
 }
 
-.events-img {
+#news-and-events .events-img {
   width: 207px;
   margin: -1px;
   overflow: hidden;
 }
 
-.events-img img {
+#news-and-events .events-img img {
   height: auto;
   width: 100%;
 }
 
-.events-link:hover .events-img img {
+#news-and-events .events-link:hover .events-img img {
   transform: scale(1.2);
   transition-duration: 0.5s;
 }
 
-.news-time,
-.events-time {
+#news-and-events .news-time,
+#news-and-events .events-time {
   display: block;
-  margin-bottom: 10px;
   color: #999;
   font-size: 12px;
   line-height: 1;
 }
 
-.info-more {
+#news-and-events .news-time {
+  margin-bottom: 10px;
+}
+
+#news-and-events .info-more {
   text-align: right;
   margin: 30px 0 0 0;
 }
 
-.info-more a {
+#news-and-events .info-more a {
   color: #000;
   font-size: 14px;
 }
 
-.info-more a::after {
+#news-and-events .info-more a::after {
   width: 14px;
   height: 12px;
   margin-left: 12px;
@@ -331,49 +335,57 @@ header .small-item-in-dropdown:hover {
     padding: 55px 45px 60px;
   }
 
-  .news,
-  .events {
+  #news-and-events .news,
+  #news-and-events .events {
     width: inherit;
   }
 
-  .news {
+  #news-and-events .news {
     margin-bottom: 35px;
   }
 
-  .events {
+  #news-and-events .events {
     margin-bottom: 30px;
   }
 
-  .event-content {
-    padding: 0 40px;
+  #news-and-events .event-content {
+    padding: 10px 20px 16px;
   }
 }
 
 @media (max-width: 767px) {
   #news-and-events {
-    padding: 40px 20px;
+    margin-bottom: 35px;
+    padding: 37px 20px 5px;  }
+
+  #news-and-events .info-more {
+    margin-top: 14px;
   }
 
-  .information-title {
+  #news-and-events .information-title {
     margin-bottom: 20px;
   }
 
-  .information-title h2 {
+  #news-and-events .information-title h2 {
     font-size: 22px;
   }
 
-  .information-title span {
+  #news-and-events .information-title span {
     margin-left: 12px;
     font-size: 14px;
   }
 
-  .news-time {
+  #news-and-events .news-article {
+    padding: 15px 20px 13px;
+  }
+
+  #news-and-events .news-time {
     margin-bottom: 6px;
     font-size: 10px;
   }
 
-  .news-link h3,
-  .events-link h3 {
+  #news-and-events .news-link h3,
+  #news-and-events .events-link h3 {
     overflow: visible;
     font-size: 14px;
     line-height: 1.8;
@@ -381,20 +393,16 @@ header .small-item-in-dropdown:hover {
     white-space: normal;
   }
 
-  .events-link h3 {
+  #news-and-events .events-link h3 {
     margin-bottom: 6px;
   }
 
-  .events-time {
+  #news-and-events .events-time {
     font-size: 10px;
   }
 
-  .events-img {
+  #news-and-events .events-img {
     display: none;
-  }
-
-  .event-content {
-    padding: 10px 20px 16px;
   }
 }
 
