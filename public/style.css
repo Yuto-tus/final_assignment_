@@ -373,10 +373,6 @@ header .small-item-in-dropdown:hover {
     line-height: 2;
   }
 
-  .grid-system-row {
-    margin: auto;
-  }
-
   #top .top-img {
     height: 50vh;
     min-height: 360px;
@@ -414,18 +410,14 @@ header .small-item-in-dropdown:hover {
   }
 
   #shop-info-cards {
-    flex-direction: column;
     margin-top: 40px;
     padding: 0 20px;
-  }
-
-  #shop-info-cards > .grid-system-row {
-    flex-direction: column;
   }
 
   #shop-info-cards .shop-info {
     width: auto;
     margin-bottom: 20px;
+    padding: 0;
   }
 
   #shop-info-cards .shop-info-title {
