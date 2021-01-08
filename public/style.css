@@ -179,6 +179,7 @@ header .small-item-in-dropdown:hover {
 #shop-info-cards .shop-info {
   border: none;
   overflow: hidden;
+  border-radius: 0;
 }
 
 #shop-info-cards .shop-info a img {
