@@ -22,7 +22,8 @@ h2 {
   font-weight: 500;
 }
 
-p {
+p,
+h3 {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 14px;
@@ -168,6 +169,73 @@ header .small-item-in-dropdown:hover {
   margin-bottom: 10px;
 }
 
+#shop-info-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  padding: 0;
+}
+
+#shop-info-cards .shop-info {
+  border: none;
+  overflow: hidden;
+  border-radius: 0;
+}
+
+#shop-info-cards .shop-info a img {
+  border-radius: 0;
+}
+
+#shop-info-cards .shop-info-title {
+  position: absolute;
+  margin-left: 2px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #442602;
+}
+
+#shop-info-cards .shop-info-body {
+  padding: 30px 30px 40px;
+  background-color: #f5f5f5;
+}
+
+#shop-info-cards .shop-info::before {
+  position: absolute;
+  content: "";
+  border-style: solid;
+  border-width: 150px 150px 0 0;
+  border-color: #fff transparent;
+  filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.5));
+}
+
+#shop-info-cards .shop-info-btn {
+  text-align: center;
+}
+
+#shop-info-cards .shop-info-btn a {
+  display: inline-block;
+  padding: 0;
+  text-decoration: none;
+  border: none;
+  width: 200px;
+  height: 55px;
+  line-height: 55px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #000;
+  transition-duration: 0.2s;
+}
+
+#shop-info-cards .shop-info-btn a:hover {
+  background-color: #442602;
+}
+
+#shop-info-cards .shop-info-text {
+  margin-bottom: 30px;
+  font-size: 14px;
+  line-height: 2.4;
+}
+
 @media (max-width: 991px) {
   header .menu,
   header .small-item-in-dropdown {
@@ -289,6 +357,10 @@ header .small-item-in-dropdown:hover {
   #top .top-comments {
     padding: 51px 50px 79px;
   }
+
+  #shop-info-cards .shop-info-btn a {
+    width: 150px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -297,7 +369,8 @@ header .small-item-in-dropdown:hover {
     font-size: 20px;
   }
 
-  p {
+  p,
+  h3 {
     line-height: 2;
   }
 
@@ -335,6 +408,37 @@ header .small-item-in-dropdown:hover {
 
   #about-us .about-us-comments h2 {
     margin-bottom: 6px;
+  }
+
+  #shop-info-cards {
+    margin-top: 40px;
+    padding: 0 20px;
+  }
+
+  #shop-info-cards .shop-info {
+    width: auto;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+
+  #shop-info-cards .shop-info-title {
+    font-size: 18px;
+  }
+
+  #shop-info-cards .shop-info-body {
+    padding: 18px 25px 25px;
+  }
+
+  #shop-info-cards .shop-info-btn a {
+    width: 180px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 12px;
+  }
+
+  #shop-info-cards .shop-info-text {
+    margin-bottom: 18px;
+    line-height: 2;
   }
 }
 
