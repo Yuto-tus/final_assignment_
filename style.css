@@ -172,7 +172,7 @@ header .small-item-in-dropdown:hover {
 #shop-info-cards {
   display: flex;
   justify-content: space-between;
-  margin-top: 100px;
+  margin: 100px auto;
   padding: 0;
 }
 
@@ -239,9 +239,11 @@ header .small-item-in-dropdown:hover {
 #news-and-events {
   padding: 55px 50px 60px;
   margin-bottom: 100px;
-  display: flex;
-  justify-content: space-between;
   background-color: #f5f5f5;
+}
+
+#news-and-events > .container-lg {
+  padding: 0;
 }
 
 #news-and-events .news,
