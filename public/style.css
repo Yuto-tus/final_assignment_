@@ -330,9 +330,12 @@ header .small-item-in-dropdown:hover {
   width: 100%;
 }
 
+#news-and-event .event-link .event-img img {
+  transition-duration: 0.5s;
+}
+
 #news-and-event .event-link:hover .event-img img {
   transform: scale(1.2);
-  transition-duration: 0.5s;
 }
 
 #news-and-event .news-time,
@@ -349,7 +352,7 @@ header .small-item-in-dropdown:hover {
 
 #news-and-event .info-more {
   text-align: right;
-  margin: 30px 0 0 0;
+  margin-top: 30px;
 }
 
 #news-and-event .info-more a {
@@ -361,9 +364,7 @@ header .small-item-in-dropdown:hover {
   width: 14px;
   height: 12px;
   margin-left: 12px;
-  content: "";
-  background: url("./SVGs/arrow.svg");
-  display: inline-block;
+  content: ">";
 }
 
 @media (max-width: 991px) {
@@ -490,10 +491,6 @@ header .small-item-in-dropdown:hover {
 
   #shop-info-cards .shop-info-btn a {
     width: 150px;
-  }
-
-  #news-and-event > .container-lg {
-    max-width: 720px;
   }
 
   #news-and-event .news,
@@ -652,7 +649,6 @@ header .small-item-in-dropdown:hover {
     display: none;
   }
 }
-
 
 /*<--------- main */
 
