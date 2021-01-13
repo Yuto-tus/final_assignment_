@@ -256,7 +256,10 @@ header .small-item-in-dropdown:hover {
 #news-and-event .event-link:hover,
 #news-and-event .info-more a:hover {
   text-decoration: none;
-  color: #000;
+}
+
+#news-and-event .info-more a:hover {
+  color: #999;
 }
 
 #news-and-event .information-title {
