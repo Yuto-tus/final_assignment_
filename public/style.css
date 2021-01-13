@@ -281,7 +281,11 @@ header .small-item-in-dropdown:hover {
 #news-and-event .event-article {
   border: 1px solid #ddd;
   background: #fff;
-  margin-top: -1px;
+}
+
+#news-and-event .news-article:not(:nth-of-type(1)),
+#news-and-event .event-article:not(:nth-of-type(1)) {
+  border-top: 0;
 }
 
 #news-and-event .news-article {
@@ -307,7 +311,7 @@ header .small-item-in-dropdown:hover {
 }
 
 #news-and-event .event-content {
-  flex: 1;
+  flex: 1 1 0%;
   display: flex;
   justify-content: center;
   flex-direction: column;
