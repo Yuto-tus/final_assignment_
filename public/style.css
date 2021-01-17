@@ -154,9 +154,15 @@ header .small-item-in-dropdown:hover {
   display: flex;
   justify-content: space-around;
   margin: auto;
+  list-style: none;
 }
+/* 
+#about-space .about-space-imgs li {
+  max-width: none;
+} */
 
 #about-space .about-space-img {
+  width: 400px;
   position: relative;
   overflow: hidden;
   display: block;
@@ -306,6 +312,11 @@ header .small-item-in-dropdown:hover {
   .top-comments {
     padding: 51px 50px 79px;
   }
+  /* 今回追加 */
+  #about-space .about-space-img {
+    margin-top: 24px;
+  }
+  /* 今回追加 */
 }
 
 @media (max-width: 767px) {
@@ -332,6 +343,20 @@ header .small-item-in-dropdown:hover {
 
   .top-comments p {
     line-height: 2;
+  }
+  /* 今回追加 */
+
+  /* 今回追加 */
+}
+
+@media (max-width: 576px) {
+  #about-space .about-space-img {
+    width: 320px;
+    padding: 0;
+  }
+
+  #about-space .about-space-img span {
+    width: 140px;
   }
 }
 
