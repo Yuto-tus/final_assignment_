@@ -286,8 +286,12 @@ header .small-item-in-dropdown:hover {
   background: #fff;
 }
 
+#news-and-event .event-content {
+  border-left: 0;
+}
+
 #news-and-event .news-article:not(:nth-of-type(1)),
-#news-and-event .event-content:not(:nth-of-type(1)) {
+#news-and-event .event-article:not(:nth-of-type(1)) .event-content {
   border-top: 0;
 }
 
@@ -600,7 +604,7 @@ header .small-item-in-dropdown:hover {
     padding: 37px 20px 5px;
   }
 
-  #news-and-event > .container-lg {
+  #news-and-event > .container-md {
     padding: 0;
   }
 
@@ -641,6 +645,7 @@ header .small-item-in-dropdown:hover {
 
   #news-and-event .event-content {
     padding: 10px 20px 16px;
+    border-left: 1px solid #ddd;
   }
 
   #news-and-event .event-link h3 {
