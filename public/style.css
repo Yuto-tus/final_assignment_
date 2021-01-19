@@ -307,6 +307,13 @@ header .small-item-in-dropdown:hover {
   text-overflow: ellipsis;
 }
 
+#news-and-event .news-article:nth-child(2) h3::after,
+#news-and-event .news-article:nth-child(5) h3::after,
+#news-and-event .event-article:nth-child(4) h3::after {
+  content: "...";
+  margin-left: -2px;
+}
+
 #news-and-event .news-link h3 {
   margin-bottom: 0;
   white-space: nowrap;
