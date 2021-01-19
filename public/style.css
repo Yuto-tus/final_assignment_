@@ -636,7 +636,6 @@ header .small-item-in-dropdown:hover {
 
   #news-and-event .news-link h3,
   #news-and-event .event-link h3 {
-    overflow: visible;
     font-size: 14px;
     line-height: 1.8;
     text-overflow: clip;
