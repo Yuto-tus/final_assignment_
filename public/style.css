@@ -236,6 +236,18 @@ header .small-item-in-dropdown:hover {
   line-height: 2.4;
 }
 
+/* 今回追加 */
+
+#contacts {
+  text-align: center;
+}
+
+#contacts p {
+  line-height: 2.2;
+}
+
+/* 今回追加 */
+
 @media (max-width: 991px) {
   header .menu,
   header .small-item-in-dropdown {
