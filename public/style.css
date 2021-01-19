@@ -301,10 +301,8 @@ header .small-item-in-dropdown:hover {
 
 #news-and-event .news-link h3,
 #news-and-event .event-content h3 {
-  overflow: hidden;
   font-size: 16px;
   font-weight: 400;
-  text-overflow: ellipsis;
 }
 
 #news-and-event .news-article:nth-child(2) h3::after,
@@ -315,6 +313,8 @@ header .small-item-in-dropdown:hover {
 }
 
 #news-and-event .news-link h3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
   margin-bottom: 0;
   white-space: nowrap;
   line-height: 1;
