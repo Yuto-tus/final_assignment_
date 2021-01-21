@@ -240,10 +240,31 @@ header .small-item-in-dropdown:hover {
 
 #contacts {
   text-align: center;
+  margin: 60px auto;
+}
+
+#contacts .footer-logo {
+  margin-bottom: 22px;
+}
+
+#contacts .footer-logo a img {
+  width: 145px;
+  height: 25px;
 }
 
 #contacts p {
   line-height: 2.2;
+  margin-bottom: 22px;
+}
+
+#contacts .contacts-svg img {
+  width: 14px;
+  height: 14px;
+  margin-right: 12px;
+}
+
+#contacts .contacts-svg img {
+  color: #442602;
 }
 
 /* 今回追加 */
@@ -452,6 +473,24 @@ header .small-item-in-dropdown:hover {
     margin-bottom: 18px;
     line-height: 2;
   }
+  /* 今回追加 */
+  #contacts {
+    margin: 40px auto;
+  }
+
+  #contacts .footer-logo {
+    margin-bottom: 12px;
+  }
+
+  #contacts .footer-logo a img {
+    width: 110px;
+    height: 20px;
+  }
+
+  #contacts p {
+    margin-bottom: 12px;
+  }
+  /*今回追加  */
 }
 
 /*<--------- main */
