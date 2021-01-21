@@ -32,6 +32,7 @@ h3 {
 
 a {
   transition-duration: 0.2s;
+  transition-timing-function: ease;
 }
 /*<--------- common */
 
