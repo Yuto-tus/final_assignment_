@@ -257,14 +257,18 @@ header .small-item-in-dropdown:hover {
   margin-bottom: 22px;
 }
 
-#contacts .contacts-svg img {
-  width: 14px;
-  height: 14px;
+#contacts .contacts-svg {
   margin-right: 12px;
 }
 
-#contacts .contacts-svg img {
-  color: #442602;
+#contacts .contacts-svg:hover svg {
+  color: #999;
+}
+
+#contacts .contacts-svg svg {
+  width: 14px;
+  height: 14px;
+  color: #000;
 }
 
 /* 今回追加 */
