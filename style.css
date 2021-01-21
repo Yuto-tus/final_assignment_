@@ -30,6 +30,9 @@ h3 {
   line-height: 2.6;
 }
 
+a {
+  transition-duration: 0.2s;
+}
 /*<--------- common */
 
 /* ---------> header */
@@ -223,7 +226,6 @@ header .small-item-in-dropdown:hover {
   font-size: 14px;
   color: #fff;
   background-color: #000;
-  transition-duration: 0.2s;
 }
 
 #shop-info-cards .shop-info-btn a:hover {
@@ -297,13 +299,6 @@ header .small-item-in-dropdown:hover {
 #news-and-event .event-content h3 {
   font-size: 16px;
   font-weight: 400;
-}
-
-#news-and-event .news-article:nth-child(2) h3::after,
-#news-and-event .news-article:nth-child(5) h3::after,
-#news-and-event .event-article:nth-child(4) h3::after {
-  content: "...";
-  margin-left: -2px;
 }
 
 #news-and-event .news-link h3 {
