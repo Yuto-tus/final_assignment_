@@ -244,10 +244,6 @@ header .small-item-in-dropdown:hover {
   background-color: #f5f5f5;
 }
 
-#news-and-event .event-link {
-  color: #000;
-}
-
 #news-and-event .news-link:hover,
 #news-and-event .event-link:hover,
 #news-and-event .info-more a:hover {
@@ -258,25 +254,25 @@ header .small-item-in-dropdown:hover {
   color: #999;
 }
 
-#news-and-event .information-title {
+#news-and-event .info-title {
   margin-bottom: 35px;
   display: flex;
   align-items: center;
 }
 
-#news-and-event .information-title h2 {
+#news-and-event .info-title h2 {
   font-size: 45px;
   line-height: 1;
   margin: 0;
   font-weight: 500;
 }
 
-#news-and-event .information-title span {
+#news-and-event .info-title span {
   font-size: 16px;
   margin-left: 16px;
 }
 
-#news-and-event .news-article,
+#news-and-event .news .article,
 #news-and-event .event-content {
   border: 1px solid #ddd;
   background: #fff;
@@ -286,12 +282,12 @@ header .small-item-in-dropdown:hover {
   border-left: 0;
 }
 
-#news-and-event .news-article:not(:nth-of-type(1)),
-#news-and-event .event-article:not(:nth-of-type(1)) .event-content {
+#news-and-event .news .article:not(:nth-of-type(1)),
+#news-and-event .event .article:not(:nth-of-type(1)) .event-content {
   border-top: 0;
 }
 
-#news-and-event .news-article {
+#news-and-event .news .article {
   padding: 20px;
 }
 
@@ -299,6 +295,7 @@ header .small-item-in-dropdown:hover {
 #news-and-event .event-content h3 {
   font-size: 16px;
   font-weight: 400;
+  color: #000;
 }
 
 #news-and-event .news-link h3 {
@@ -307,6 +304,9 @@ header .small-item-in-dropdown:hover {
   margin-bottom: 0;
   white-space: nowrap;
   line-height: 1;
+}
+
+#news-and-event .news .article a:hover h3 {
   color: #442602;
 }
 
@@ -334,9 +334,6 @@ header .small-item-in-dropdown:hover {
 
 #news-and-event .event-img img {
   width: 100%;
-}
-
-#news-and-event .event-link .event-img img {
   transition-duration: 0.5s;
 }
 
@@ -606,20 +603,20 @@ header .small-item-in-dropdown:hover {
     margin-top: 14px;
   }
 
-  #news-and-event .information-title {
+  #news-and-event .info-title {
     margin-bottom: 20px;
   }
 
-  #news-and-event .information-title h2 {
+  #news-and-event .info-title h2 {
     font-size: 22px;
   }
 
-  #news-and-event .information-title span {
+  #news-and-event .info-title span {
     margin-left: 12px;
     font-size: 14px;
   }
 
-  #news-and-event .news-article {
+  #news-and-event .news .article {
     padding: 15px 20px 13px;
   }
 
