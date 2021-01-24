@@ -272,7 +272,7 @@ header .small-item-in-dropdown:hover {
   margin-left: 16px;
 }
 
-#news-and-event .news .article,
+#news-and-event .news .article-list article,
 #news-and-event .event-content {
   border: 1px solid #ddd;
   background: #fff;
