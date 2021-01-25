@@ -381,6 +381,7 @@ header .small-item-in-dropdown:hover {
 
 #plans {
   padding: 0;
+  margin-bottom: 100px;
 }
 
 #plans .plans-texts {
@@ -764,6 +765,7 @@ header .small-item-in-dropdown:hover {
 
   #plans {
     padding: 0 20px;
+    margin-bottom: 40px;
   }
 
   #plans .plans-texts {
