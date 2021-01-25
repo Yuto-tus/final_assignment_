@@ -372,6 +372,78 @@ header .small-item-in-dropdown:hover {
   content: ">";
 }
 
+#plans {
+  padding: 0;
+}
+
+#plans .cards {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#plans .a-card {
+  text-align: center;
+  border-radius: 0;
+}
+
+#plans .a-card:nth-child(2) > ul {
+  border: 5px solid #442607;
+}
+
+#plans .plan-title {
+  background: #a19283;
+  color: #fff;
+}
+
+#plans .a-card:nth-child(2) > .plan-title {
+  background-color: #442506;
+}
+
+#plans .plan-title h5 {
+  font-weight: 700;
+  margin: 19px 0;
+}
+
+#plans .plan-list {
+  font-size: 14px;
+  border: 1px solid #ddd;
+  line-height: 1.4;
+}
+
+#plans .card-li-top {
+  padding: 24px 0;
+  background: #ece9e6;
+  line-height: 1;
+}
+
+#plans .plan-list li:not(.card-li-top) {
+  padding: 20px 10px;
+}
+
+#plans .a-card:not(:nth-child(2)) > .plan-list li:last-child {
+  padding-bottom: 24px;
+}
+
+#plans .plan-price {
+  color: #442506;
+  margin-bottom: 16px;
+  font-family: Arial, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN",
+    "メイリオ", Meiryo, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+#plans .plan-price span {
+  font-size: 20px;
+}
+
+#plans .plan-price + p {
+  margin: 0;
+}
+
 @media (max-width: 1199px) {
   #news-and-event .news .article-list article {
     padding: 20px 10px;
@@ -666,6 +738,28 @@ header .small-item-in-dropdown:hover {
 
   #news-and-event .event-img {
     display: none;
+  }
+  #plans .cards {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  #plans .a-card {
+    margin-bottom: 25px;
+  }
+
+  #plans .plan-title h5 {
+    font-size: 16px;
+    margin: 14px 0;
+  }
+
+  #plans .a-card:not(:nth-child(2)) > .plan-list .card-li-top {
+    padding: 17px 0;
+  }
+
+  #plans .plan-price {
+    margin-bottom: 10px;
+    font-size: 36px;
   }
 }
 
