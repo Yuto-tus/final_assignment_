@@ -29,6 +29,7 @@ h3 {
   font-size: 14px;
   line-height: 2.4;
 }
+
 a {
   transition-duration: 0.2s;
 }
@@ -381,6 +382,7 @@ header .small-item-in-dropdown:hover {
 
 #plans {
   padding: 0;
+  margin-bottom: 100px;
 }
 
 #plans .plans-texts {
@@ -396,21 +398,21 @@ header .small-item-in-dropdown:hover {
 #plans .cards {
   margin-bottom: 40px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   align-items: flex-start;
 }
 
 #plans .a-card {
   text-align: center;
-  border-radius: 0;
+  border: 0;
 }
 
 #plans .a-card:nth-child(2) > ul {
   border: 5px solid #442607;
+  border-top: 0;
 }
 
 #plans .plan-title {
+  padding: 0;
   background: #a19283;
   color: #fff;
 }
@@ -428,6 +430,7 @@ header .small-item-in-dropdown:hover {
   font-size: 14px;
   border: 1px solid #ddd;
   line-height: 1.4;
+  border-top: 0;
 }
 
 #plans .card-li-top {
@@ -764,6 +767,7 @@ header .small-item-in-dropdown:hover {
 
   #plans {
     padding: 0 20px;
+    margin-bottom: 40px;
   }
 
   #plans .plans-texts {
