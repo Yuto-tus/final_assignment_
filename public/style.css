@@ -29,14 +29,37 @@ h3 {
   font-size: 14px;
   line-height: 2.4;
 }
+a {
+  transition-duration: 0.2s;
+}
 
 #top .top-comments p,
 #about-us .about-us-comments p {
   line-height: 2.6;
 }
 
-a {
-  transition-duration: 0.2s;
+#shop-info-cards .shop-info-btn,
+#plans .plans-btn {
+  text-align: center;
+}
+
+#shop-info-cards .shop-info-btn a,
+#plans .plans-btn a {
+  display: inline-block;
+  padding: 0;
+  text-decoration: none;
+  border: none;
+  width: 200px;
+  height: 55px;
+  line-height: 55px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #000;
+}
+
+#shop-info-cards .shop-info-btn a:hover,
+#plans .plans-btn a:hover {
+  background-color: #442602;
 }
 /*<--------- common */
 
@@ -214,27 +237,6 @@ header .small-item-in-dropdown:hover {
   border-width: 150px 150px 0 0;
   border-color: #fff transparent;
   filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.5));
-}
-
-#shop-info-cards .shop-info-btn {
-  text-align: center;
-}
-
-#shop-info-cards .shop-info-btn a {
-  display: inline-block;
-  padding: 0;
-  text-decoration: none;
-  border: none;
-  width: 200px;
-  height: 55px;
-  line-height: 55px;
-  font-size: 14px;
-  color: #fff;
-  background-color: #000;
-}
-
-#shop-info-cards .shop-info-btn a:hover {
-  background-color: #442602;
 }
 
 #shop-info-cards .shop-info-text {
@@ -463,6 +465,11 @@ header .small-item-in-dropdown:hover {
 }
 
 @media (max-width: 1199px) {
+  #shop-info-cards .shop-info-btn a,
+  #plans .plans-btn a {
+    width: 150px;
+  }
+
   #news-and-event .news .article-list article {
     padding: 20px 10px;
   }
@@ -594,10 +601,6 @@ header .small-item-in-dropdown:hover {
     padding: 51px 50px 79px;
   }
 
-  #shop-info-cards .shop-info-btn a {
-    width: 150px;
-  }
-
   #news-and-event .news,
   #news-and-event .event {
     width: inherit;
@@ -629,6 +632,14 @@ header .small-item-in-dropdown:hover {
   p,
   h3 {
     line-height: 2;
+  }
+
+  #shop-info-cards .shop-info-btn a,
+  #plans .plans-btn a {
+    width: 180px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 12px;
   }
 
   #top .top-img {
@@ -684,13 +695,6 @@ header .small-item-in-dropdown:hover {
 
   #shop-info-cards .shop-info-body {
     padding: 18px 25px 25px;
-  }
-
-  #shop-info-cards .shop-info-btn a {
-    width: 180px;
-    height: 45px;
-    line-height: 45px;
-    font-size: 12px;
   }
 
   #shop-info-cards .shop-info-text {
@@ -773,6 +777,7 @@ header .small-item-in-dropdown:hover {
   #plans .cards {
     flex-direction: column;
     padding: 0;
+    margin: 0;
   }
 
   #plans .a-card {
