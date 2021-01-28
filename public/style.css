@@ -152,10 +152,14 @@ header .small-item-in-dropdown:hover {
 
 #about-space .about-space-imgs {
   display: flex;
-  justify-content: space-around;
-  margin: auto;
+  justify-content: center;
   list-style: none;
 }
+
+#about-space .about-space-imgs div {
+  margin: 0 15px;
+}
+
 /* 
 #about-space .about-space-imgs li {
   max-width: none;
@@ -169,6 +173,10 @@ header .small-item-in-dropdown:hover {
   color: #442606;
 }
 
+#about-space .about-space-img:hover #about-space .about-space-img:hover {
+  color: #442602;
+}
+
 #about-space .about-space-img span {
   position: absolute;
   top: 0;
@@ -179,6 +187,12 @@ header .small-item-in-dropdown:hover {
   font-size: 16px;
   line-height: 120px;
 }
+
+/* #about-space .about-space-img img {
+  transform: scale(1.2);
+} */
+
+/* 以前のところとhoverの投げれが同じであるはずだから後でまとめて書く。767以下でhover時の行動が無効になるのも忘れずに */
 
 #about-space .about-space-img span::before {
   position: absolute;
@@ -313,8 +327,13 @@ header .small-item-in-dropdown:hover {
     padding: 51px 50px 79px;
   }
   /* 今回追加 */
-  #about-space .about-space-img {
-    margin-top: 24px;
+
+  #about-space .about-space-imgs div {
+    margin: 0 auto;
+  }
+
+  #about-space .about-space-imgs div:nth-child(2) {
+    margin: 24px auto 0;
   }
   /* 今回追加 */
 }
@@ -355,8 +374,18 @@ header .small-item-in-dropdown:hover {
     padding: 0;
   }
 
+  #about-space .about-space-img img {
+    width: 320px;
+    height: 120px;
+  }
+
   #about-space .about-space-img span {
     width: 140px;
+  }
+
+  #about-space .about-space-img span::before {
+    left: -100px;
+    border-width: 100px 50px 100px 50px;
   }
 }
 
