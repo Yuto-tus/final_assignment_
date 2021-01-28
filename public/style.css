@@ -381,7 +381,6 @@ header .small-item-in-dropdown:hover {
 }
 
 #plans {
-  padding: 0;
   margin-bottom: 100px;
 }
 
@@ -397,7 +396,6 @@ header .small-item-in-dropdown:hover {
 
 #plans .cards {
   margin-bottom: 40px;
-  display: flex;
   align-items: flex-start;
 }
 
