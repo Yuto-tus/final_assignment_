@@ -457,9 +457,11 @@ header .small-item-in-dropdown:hover {
   font-weight: 700;
 }
 
-#plans .plan-price span {
+#plans .plan-price::before {
+  content: '￥';
   font-size: 20px;
 }
+
 
 #plans .plan-price + p {
   margin: 0;
