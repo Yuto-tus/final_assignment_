@@ -394,17 +394,18 @@ header .small-item-in-dropdown:hover {
   margin-bottom: 10px;
 }
 
-#plans .cards {
+#plans .wrapper-about-plan {
   margin-bottom: 40px;
-  align-items: flex-start;
 }
 
-#plans .plans-card {
+#plans .about-plan {
   text-align: center;
   border: 0;
+  display: flex;
+  flex-direction: column;
 }
 
-#plans .plans-card:nth-child(2) > ul {
+#plans .about-plan:nth-child(2) > ul {
   border: 5px solid #442607;
   border-top: 0;
 }
@@ -415,7 +416,7 @@ header .small-item-in-dropdown:hover {
   color: #fff;
 }
 
-#plans .plans-card:nth-child(2) > .plan-title {
+#plans .about-plan:nth-child(2) > .plan-title {
   background-color: #442506;
 }
 
@@ -444,7 +445,7 @@ header .small-item-in-dropdown:hover {
   padding: 20px 10px;
 }
 
-#plans .plans-card:not(:nth-child(2)) > .plan-list li:last-child {
+#plans .about-plan:not(:nth-child(2)) > .plan-list li:last-child {
   padding-bottom: 24px;
 }
 
@@ -777,13 +778,11 @@ header .small-item-in-dropdown:hover {
     margin-bottom: 6px;
   }
 
-  #plans .cards {
-    flex-direction: column;
-    padding: 0;
+  #plans .wrapper-about-plan {
     margin: 0;
   }
 
-  #plans .plans-card {
+  #plans .about-plan {
     margin-bottom: 25px;
     padding: 0;
   }
@@ -801,7 +800,7 @@ header .small-item-in-dropdown:hover {
     padding: 12px 10px;
   }
 
-  #plans .plans-card:not(:nth-child(2)) > .plan-list li:last-child {
+  #plans .about-plan:not(:nth-child(2)) > .plan-list li:last-child {
     padding: 12px 10px;
   }
 
