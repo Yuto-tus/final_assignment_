@@ -39,13 +39,13 @@ a {
   line-height: 2.6;
 }
 
-#shop-info-cards .shop-info-btn,
-#plans .plans-btn {
+#shop-info-cards .shop-info-btn-wrapper,
+#plans .plans-btn-wrapper {
   text-align: center;
 }
 
-#shop-info-cards .shop-info-btn a,
-#plans .plans-btn a {
+#shop-info-cards .shop-info-btn-wrapper a,
+#plans .plans-btn-wrapper a {
   display: inline-block;
   padding: 0;
   text-decoration: none;
@@ -58,8 +58,8 @@ a {
   background-color: #000;
 }
 
-#shop-info-cards .shop-info-btn a:hover,
-#plans .plans-btn a:hover {
+#shop-info-cards .shop-info-btn-wrapper a:hover,
+#plans .plans-btn-wrapper a:hover {
   background-color: #442602;
 }
 /*<--------- common */
@@ -436,7 +436,7 @@ header .small-item-in-dropdown:hover {
   background: #ece9e6;
 }
 
-#plans .card-li-top p {
+#plans .card-li-top div {
   line-height: 1;
 }
 
@@ -458,18 +458,17 @@ header .small-item-in-dropdown:hover {
 }
 
 #plans .plan-price::before {
-  content: '￥';
+  content: "￥";
   font-size: 20px;
 }
-
 
 #plans .plan-price + p {
   margin: 0;
 }
 
 @media (max-width: 1199px) {
-  #shop-info-cards .shop-info-btn a,
-  #plans .plans-btn a {
+  #shop-info-cards .shop-info-btn-wrapper a,
+  #plans .plans-btn-wrapper a {
     width: 150px;
   }
 
@@ -637,8 +636,8 @@ header .small-item-in-dropdown:hover {
     line-height: 2;
   }
 
-  #shop-info-cards .shop-info-btn a,
-  #plans .plans-btn a {
+  #shop-info-cards .shop-info-btn-wrapper a,
+  #plans .plans-btn-wrapper a {
     width: 180px;
     height: 45px;
     line-height: 45px;
