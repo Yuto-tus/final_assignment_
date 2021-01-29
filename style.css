@@ -399,12 +399,12 @@ header .small-item-in-dropdown:hover {
   align-items: flex-start;
 }
 
-#plans .a-card {
+#plans .plans-card {
   text-align: center;
   border: 0;
 }
 
-#plans .a-card:nth-child(2) > ul {
+#plans .plans-card:nth-child(2) > ul {
   border: 5px solid #442607;
   border-top: 0;
 }
@@ -415,7 +415,7 @@ header .small-item-in-dropdown:hover {
   color: #fff;
 }
 
-#plans .a-card:nth-child(2) > .plan-title {
+#plans .plans-card:nth-child(2) > .plan-title {
   background-color: #442506;
 }
 
@@ -444,7 +444,7 @@ header .small-item-in-dropdown:hover {
   padding: 20px 10px;
 }
 
-#plans .a-card:not(:nth-child(2)) > .plan-list li:last-child {
+#plans .plans-card:not(:nth-child(2)) > .plan-list li:last-child {
   padding-bottom: 24px;
 }
 
@@ -783,7 +783,7 @@ header .small-item-in-dropdown:hover {
     margin: 0;
   }
 
-  #plans .a-card {
+  #plans .plans-card {
     margin-bottom: 25px;
     padding: 0;
   }
@@ -801,7 +801,7 @@ header .small-item-in-dropdown:hover {
     padding: 12px 10px;
   }
 
-  #plans .a-card:not(:nth-child(2)) > .plan-list li:last-child {
+  #plans .plans-card:not(:nth-child(2)) > .plan-list li:last-child {
     padding: 12px 10px;
   }
 
