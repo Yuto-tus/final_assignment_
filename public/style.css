@@ -35,7 +35,8 @@ a {
 }
 
 #top .top-comments p,
-#about-us .about-us-comments p {
+#about-us .about-us-comments p,
+#about-space .about-space-comments p {
   line-height: 2.6;
 }
 
@@ -336,12 +337,14 @@ header .small-item-in-dropdown:hover {
   overflow: hidden;
 }
 
-#news-and-event .event-img img {
+#news-and-event .event-img img,
+#about-space .about-space-img img {
   width: 100%;
   transition-duration: 0.5s;
 }
 
-#news-and-event .event-link:hover .event-img img {
+#news-and-event .event-link:hover .event-img img,
+#about-space .about-space-img:hover img {
   transform: scale(1.2);
 }
 
@@ -457,15 +460,7 @@ header .small-item-in-dropdown:hover {
 #about-space .about-space-wrapper {
   background-image: url("./images/img-about-space-background.jpg");
   text-align: center;
-  padding: 50px 0;
-}
-
-#about-space .about-space-comments {
-  color: #fff;
-}
-
-#about-space .about-space-comments h2 {
-  margin-bottom: 10px;
+  padding: 125px 0;
 }
 
 #about-space .about-space-imgs {
@@ -501,16 +496,6 @@ header .small-item-in-dropdown:hover {
   line-height: 120px;
 }
 
-#about-space .about-space-img:hover img {
-  transform: scale(1.2);
-}
-
-#about-space .about-space-img img {
-  transition-duration: 0.5s;
-}
-
-/* 以前のところとhoverの投げれが同じであるはずだから後でまとめて書く。767以下でhover時の行動が無効になるのも忘れずに */
-
 #about-space .about-space-img span::before {
   position: absolute;
   content: "";
@@ -532,6 +517,10 @@ header .small-item-in-dropdown:hover {
 
   #news-and-event .event-content {
     padding: 0 16px;
+  }
+
+  #about-space .about-space-wrapper {
+    padding: 50px 0;
   }
 }
 
@@ -682,6 +671,14 @@ header .small-item-in-dropdown:hover {
     margin: 0 auto;
   }
 
+  #about-space .about-space-comments h2 {
+    font-size: 28px;
+  }
+
+  #about-space .about-space-comments p {
+    line-height: 2;
+  }
+
   #about-space .about-space-imgs div:nth-child(2) {
     margin: 24px auto 0;
   }
@@ -689,7 +686,8 @@ header .small-item-in-dropdown:hover {
 
 @media (max-width: 767px) {
   h1,
-  h2 {
+  h2,
+  #about-space .about-space-comments h2 {
     font-size: 20px;
   }
 
