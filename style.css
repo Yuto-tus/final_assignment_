@@ -464,6 +464,8 @@ header .small-item-in-dropdown:hover {
 }
 
 #about-space .about-space-imgs {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   list-style: none;
 }
@@ -478,10 +480,6 @@ header .small-item-in-dropdown:hover {
   overflow: hidden;
   display: block;
   color: #442606;
-}
-
-#about-space .about-space-img:hover {
-  color: #442602;
 }
 
 #about-space .about-space-img span {
