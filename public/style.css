@@ -501,7 +501,7 @@ header .small-item-in-dropdown:hover {
   content: "";
   left: -120px;
   border-style: solid;
-  border-width: 120px 60px 120px 60px;
+  border-width: 60px 30px;
   border-color: transparent #fff #fff transparent;
 }
 
@@ -890,11 +890,6 @@ header .small-item-in-dropdown:hover {
 
   #about-space .about-space-img span {
     width: 140px;
-  }
-
-  #about-space .about-space-img span::before {
-    left: -100px;
-    border-width: 100px 50px 100px 50px;
   }
 }
 
