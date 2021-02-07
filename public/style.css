@@ -464,7 +464,6 @@ header .small-item-in-dropdown:hover {
 }
 
 #about-space .about-space-imgs {
-  display: flex;
   justify-content: center;
   list-style: none;
 }
@@ -496,12 +495,12 @@ header .small-item-in-dropdown:hover {
   line-height: 120px;
 }
 
-#about-space .about-space-img span::before {
+#about-space .about-space-img::after {
   position: absolute;
   content: "";
-  left: -120px;
+  left: 170px;
   border-style: solid;
-  border-width: 120px 60px 120px 60px;
+  border-width: 60px 30px;
   border-color: transparent #fff #fff transparent;
 }
 
@@ -892,9 +891,8 @@ header .small-item-in-dropdown:hover {
     width: 140px;
   }
 
-  #about-space .about-space-img span::before {
-    left: -100px;
-    border-width: 100px 50px 100px 50px;
+  #about-space .about-space-img::after {
+    left: 120px;
   }
 }
 
