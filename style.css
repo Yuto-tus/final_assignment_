@@ -495,10 +495,10 @@ header .small-item-in-dropdown:hover {
   line-height: 120px;
 }
 
-#about-space .about-space-img::after {
+#about-space .about-space-img span::after {
   position: absolute;
   content: "";
-  left: 170px;
+  right: 100%;
   border-style: solid;
   border-width: 60px 30px;
   border-color: transparent #fff #fff transparent;
@@ -883,16 +883,11 @@ header .small-item-in-dropdown:hover {
   }
 
   #about-space .about-space-img img {
-    width: 320px;
     height: 120px;
   }
 
   #about-space .about-space-img span {
     width: 140px;
-  }
-
-  #about-space .about-space-img::after {
-    left: 120px;
   }
 }
 
