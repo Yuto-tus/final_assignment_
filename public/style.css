@@ -464,7 +464,6 @@ header .small-item-in-dropdown:hover {
 }
 
 #about-space .about-space-imgs {
-  display: flex;
   justify-content: center;
   list-style: none;
 }
@@ -496,10 +495,10 @@ header .small-item-in-dropdown:hover {
   line-height: 120px;
 }
 
-#about-space .about-space-img span::before {
+#about-space .about-space-img span::after {
   position: absolute;
   content: "";
-  left: -120px;
+  right: 100%;
   border-style: solid;
   border-width: 60px 30px;
   border-color: transparent #fff #fff transparent;
@@ -884,7 +883,6 @@ header .small-item-in-dropdown:hover {
   }
 
   #about-space .about-space-img img {
-    width: 320px;
     height: 120px;
   }
 
