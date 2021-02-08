@@ -459,15 +459,17 @@ header .small-item-in-dropdown:hover {
 
 #about-space .about-space-wrapper {
   background-image: url("./images/img-about-space-background.jpg");
-  text-align: center;
   padding: 125px 0;
+}
+
+#about-space .about-space-comments {
+  text-align: center;
 }
 
 #about-space .about-space-imgs {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  list-style: none;
 }
 
 #about-space .about-space-imgs div {
@@ -496,6 +498,7 @@ header .small-item-in-dropdown:hover {
 #about-space .about-space-img span::after {
   position: absolute;
   content: "";
+  top: 0;
   right: 100%;
   border-style: solid;
   border-width: 60px 30px;
@@ -664,8 +667,12 @@ header .small-item-in-dropdown:hover {
     padding: 0 45px;
   }
 
-  #about-space .about-space-imgs div {
+  #about-space .about-space-imgs div:first-child {
     margin: 0 auto;
+  }
+
+  #about-space .about-space-imgs div:nth-child(2) {
+    margin: 24px auto 0;
   }
 
   #about-space .about-space-comments h2 {
@@ -675,16 +682,11 @@ header .small-item-in-dropdown:hover {
   #about-space .about-space-comments p {
     line-height: 2;
   }
-
-  #about-space .about-space-imgs div:nth-child(2) {
-    margin: 24px auto 0;
-  }
 }
 
 @media (max-width: 767px) {
   h1,
-  h2,
-  #about-space .about-space-comments h2 {
+  h2 {
     font-size: 20px;
   }
 
@@ -872,9 +874,13 @@ header .small-item-in-dropdown:hover {
   #about-space .about-space-img img {
     transition: none;
   }
+
+  #about-space .about-space-comments h2 {
+    font-size: 20px;
+  }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
   #about-space .about-space-img {
     width: 320px;
     padding: 0;
