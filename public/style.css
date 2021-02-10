@@ -668,16 +668,10 @@ header .small-item-in-dropdown:hover {
   }
 
   #about-space .about-space-imgs div {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
+    margin: 0 auto;
   }
 
-  #about-space .about-space-imgs div:first-child {
-    margin-top: 0;
-  }
-
-  #about-space .about-space-imgs div:nth-child(2) {
+  #about-space .about-space-imgs div:last-child {
     margin-top: 24px;
   }
 
