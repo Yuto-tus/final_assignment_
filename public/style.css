@@ -462,21 +462,19 @@ header .small-item-in-dropdown:hover {
   padding: 125px 0;
 }
 
-#about-space .about-space-container {
+
+#about-space .about-space-comments {
+  text-align: center;
+  color: #fff;
+}
+
+#about-space .about-space-imgs {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
 
-#about-space .about-space-comments {
-  text-align: center;
-}
-
-#about-space .about-space-img-wrapper {
-  margin: 0 15px;
-  float: left;
-}
 
 #about-space .about-space-img {
   width: 400px;
@@ -484,6 +482,7 @@ header .small-item-in-dropdown:hover {
   overflow: hidden;
   display: block;
   color: #442606;
+  margin: 0 15px;
 }
 
 #about-space .about-space-img span {
@@ -522,7 +521,7 @@ header .small-item-in-dropdown:hover {
   }
 
   #about-space {
-    padding: 50px 0;
+    padding: 50px 40px;
   }
 }
 
@@ -669,11 +668,11 @@ header .small-item-in-dropdown:hover {
     padding: 0 45px;
   }
 
-  #about-space .about-space-img-wrapper {
+  #about-space .about-space-img {
     margin: 0 auto;
   }
 
-  #about-space .about-space-img-wrapper:last-child {
+  #about-space .about-space-img:last-of-type {
     margin-top: 24px;
   }
 
@@ -683,6 +682,10 @@ header .small-item-in-dropdown:hover {
 
   #about-space .about-space-comments p {
     line-height: 2;
+  }
+
+  #about-space {
+    padding: 50px 86px;
   }
 }
 
@@ -867,6 +870,10 @@ header .small-item-in-dropdown:hover {
   #plans .plan-price {
     margin-bottom: 10px;
     font-size: 36px;
+  }
+
+  #about-space {
+    padding: 50px 15px;
   }
 
   #about-space .about-space-img:hover img {
