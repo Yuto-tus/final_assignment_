@@ -462,7 +462,6 @@ header .small-item-in-dropdown:hover {
   padding: 125px 0;
 }
 
-
 #about-space .about-space-comments {
   text-align: center;
   color: #fff;
@@ -473,7 +472,6 @@ header .small-item-in-dropdown:hover {
   flex-wrap: wrap;
   justify-content: center;
 }
-
 
 #about-space .about-space-img {
   width: 400px;
@@ -671,7 +669,7 @@ header .small-item-in-dropdown:hover {
     margin: 0 auto;
   }
 
-  #about-space .about-space-img:last-of-type {
+  #about-space .about-space-img:last-child {
     margin-top: 24px;
   }
 
@@ -684,7 +682,7 @@ header .small-item-in-dropdown:hover {
   }
 
   #about-space {
-    padding: 50px 86px;
+    padding: 50px 88px;
   }
 }
 
