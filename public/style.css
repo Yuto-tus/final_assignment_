@@ -952,21 +952,6 @@ footer .copyright {
   #about-space .about-space-comments h2 {
     font-size: 20px;
   }
-}
-
-@media (max-width: 575px) {
-  #about-space .about-space-img {
-    width: 320px;
-    padding: 0;
-  }
-
-  #about-space .about-space-img img {
-    height: 120px;
-  }
-
-  #about-space .about-space-img span {
-    width: 140px;
-  }
 
   footer #contacts {
     margin: 40px auto;
@@ -1003,6 +988,21 @@ footer .copyright {
   footer .copyright {
     height: 50px;
     line-height: 50px;
+  }
+}
+
+@media (max-width: 575px) {
+  #about-space .about-space-img {
+    width: 320px;
+    padding: 0;
+  }
+
+  #about-space .about-space-img img {
+    height: 120px;
+  }
+
+  #about-space .about-space-img span {
+    width: 140px;
   }
 }
 
