@@ -508,13 +508,10 @@ footer #contacts {
   margin: 60px auto;
 }
 
-footer #contacts .footer-logo {
-  margin-bottom: 22px;
-}
-
-footer #contacts .footer-logo a img {
+footer #contacts .footer-logo img {
   width: 145px;
   height: 25px;
+  margin-bottom: 22px;
 }
 
 footer #contacts p {
@@ -957,13 +954,10 @@ footer .copyright {
     margin: 40px auto;
   }
 
-  footer #contacts .footer-logo {
-    margin-bottom: 12px;
-  }
-
-  footer #contacts .footer-logo a img {
+  footer #contacts .footer-logo img {
     width: 110px;
     height: 20px;
+    margin-bottom: 12px;
   }
 
   footer #contacts p {
