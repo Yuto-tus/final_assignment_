@@ -519,15 +519,15 @@ footer .contacts p {
   margin-bottom: 22px;
 }
 
-footer .contacts-svg {
+footer .contacts-svg-wrapper {
   margin-right: 12px;
 }
 
-footer .contacts-svg:hover svg {
+footer .contacts-svg-wrapper:hover svg {
   color: #999;
 }
 
-footer .contacts-svg svg {
+footer .contacts-svg-wrapper svg {
   width: 14px;
   height: 14px;
   color: #000;
