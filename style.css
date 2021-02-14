@@ -503,37 +503,37 @@ header .small-item-in-dropdown:hover {
   border-color: transparent #fff #fff transparent;
 }
 
-footer #contacts {
+footer .contacts {
   text-align: center;
   margin: 60px auto;
 }
 
-footer #contacts .footer-logo img {
+footer .footer-logo img {
   width: 145px;
   height: 25px;
   margin-bottom: 22px;
 }
 
-footer #contacts p {
+footer .contacts p {
   line-height: 2.2;
   margin-bottom: 22px;
 }
 
-footer #contacts .contacts-svg {
+footer .contacts-svg {
   margin-right: 12px;
 }
 
-footer #contacts .contacts-svg:hover svg {
+footer .contacts-svg:hover svg {
   color: #999;
 }
 
-footer #contacts .contacts-svg svg {
+footer .contacts-svg svg {
   width: 14px;
   height: 14px;
   color: #000;
 }
 
-footer #footer-menu ul {
+footer .footer-menu {
   display: flex;
   justify-content: center;
   font-size: 14px;
@@ -545,21 +545,21 @@ footer #footer-menu ul {
   border-bottom: 1px solid #ddd;
 }
 
-footer #footer-menu ul li {
+footer .footer-menu li {
   list-style: none;
 }
 
-footer #footer-menu ul li + li::before {
+footer .footer-menu li + li::before {
   margin: 0 10px;
   content: "|";
 }
 
-footer #footer-menu ul li a {
+footer .footer-menu li a {
   color: #000;
   text-decoration: none;
 }
 
-footer #footer-menu ul li a:hover {
+footer .footer-menu li a:hover {
   color: #442602;
 }
 
@@ -950,31 +950,31 @@ footer .copyright {
     font-size: 20px;
   }
 
-  footer #contacts {
+  footer .contacts {
     margin: 40px auto;
   }
 
-  footer #contacts .footer-logo img {
+  footer .footer-logo img {
     width: 110px;
     height: 20px;
     margin-bottom: 12px;
   }
 
-  footer #contacts p {
+  footer .contacts p {
     margin-bottom: 12px;
   }
 
-  footer #footer-menu ul {
+  footer .footer-menu {
     flex-wrap: wrap;
     padding: 30px 20px;
   }
 
-  footer #footer-menu ul li {
+  footer .footer-menu li {
     width: 50%;
     line-height: 2.4;
   }
 
-  footer #footer-menu ul li + li::before {
+  footer .footer-menu li + li::before {
     content: none;
     margin: 0;
   }
