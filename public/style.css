@@ -570,9 +570,10 @@ footer .copyright {
   color: #fff;
   background-color: #000;
   font-size: 12px;
-  line-height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  overflow: hidden;
 }
 
 @media (max-width: 1199px) {
@@ -983,7 +984,6 @@ footer .copyright {
 
   footer .copyright {
     height: 50px;
-    line-height: 50px;
   }
 }
 
