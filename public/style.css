@@ -521,14 +521,15 @@ footer .contacts-svg-wrapper {
   margin-right: 12px;
 }
 
-footer .contacts-svg-wrapper:hover svg {
-  color: #999;
-}
-
 footer .contacts-svg-wrapper svg {
   width: 14px;
   height: 14px;
   color: #000;
+  transition-duration: 0.2s;
+}
+
+footer .contacts-svg-wrapper:hover svg {
+  color: #999;
 }
 
 footer .footer-menu {
