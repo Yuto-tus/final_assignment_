@@ -503,7 +503,9 @@ header .small-item-in-dropdown:hover {
 }
 
 footer .contacts {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 60px auto;
 }
 
@@ -514,10 +516,11 @@ footer .footer-logo img {
 
 footer .contacts p {
   line-height: 2.2;
+  text-align: center;
   margin-bottom: 22px;
 }
 
-footer .contacts-svg-wrapper {
+footer .contacts-svg-wrapper:not(:last-child) {
   margin-right: 12px;
 }
 
@@ -569,6 +572,7 @@ footer .copyright {
   font-size: 12px;
   line-height: 60px;
   text-align: center;
+  overflow: hidden;
 }
 
 @media (max-width: 1199px) {
