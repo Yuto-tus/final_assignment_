@@ -1,0 +1,100 @@
+body {
+  background-image: url(./img/chat-background-img.jpg);
+  background-size: cover;
+}
+
+.talks-wrapper {
+  display: flow-root;
+}
+
+.talk-left,
+.talk-right {
+  width: 70%;
+  display: flex;
+  flex: 1 0 0;
+  margin-bottom: 18px;
+}
+
+.talk-right {
+  float: right;
+  justify-content: flex-end;
+}
+
+.talker-img-wrapper img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.talk-left-main {
+  margin-left: 8px;
+  margin-top: 5px;
+}
+
+.name {
+  color: #616170;
+}
+
+.texts {
+  word-break: break-all;
+  padding: 6px 15px;
+  border-radius: 18px;
+  width: fit-content;
+  position: relative;
+}
+
+.talk-left .texts {
+  background-color: #e0dede;
+  margin-top: 2px;
+  margin-left: 6px;
+}
+
+.talk-left .texts::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: -7px;
+  left: -18px;
+  border: 8px solid transparent;
+  border-right: 18px solid #e0dede;
+  -webkit-transform: rotate(35deg);
+  transform: rotate(35deg);
+}
+
+.talk-right .texts {
+  background-color: #acdaa1;
+}
+
+.talk-secondary {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.talk-right .talk-secondary {
+  margin-right: 5px;
+}
+
+.time,
+.opened {
+  color: #c8c8d8;
+  white-space: nowrap;
+}
+
+.talk-left .time {
+  margin-left: 5px;
+}
+
+@media (max-width: 575px) {
+  .texts,
+  .name {
+    font-size: 12px;
+  }
+
+  .talk-secondary {
+    font-size: 10px;
+  }
+}
