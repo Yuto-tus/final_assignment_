@@ -32,6 +32,11 @@ body {
   margin-top: 5px;
 }
 
+.texts,
+.name {
+  font-size: 12px;
+}
+
 .name {
   color: #616170;
 }
@@ -42,8 +47,8 @@ body {
 
 .texts {
   word-break: break-all;
-  padding: 6px 15px;
-  border-radius: 18px;
+  padding: 6px 12px;
+  border-radius: 15px;
   width: fit-content;
   position: relative;
 }
@@ -62,12 +67,22 @@ body {
   left: -18px;
   border: 8px solid transparent;
   border-right: 18px solid #e0dede;
-  -webkit-transform: rotate(35deg);
   transform: rotate(35deg);
 }
 
 .talk-right .texts {
   background-color: #acdaa1;
+}
+
+.talk-right .texts::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: -7px;
+  right: -18px;
+  border: 8px solid transparent;
+  border-left: 18px solid #acdaa1;
+  transform: rotate(325deg);
 }
 
 .talk-secondary {
@@ -83,7 +98,7 @@ body {
 
 .time,
 .opened {
-  font-size: 12px;
+  font-size: 10px;
   color: #c8c8d8;
   white-space: nowrap;
 }
@@ -93,26 +108,9 @@ body {
 }
 
 .date {
-  margin: 10px auto;
+  margin: 18px auto;
   background-color: #dedee2;
   width: fit-content;
   padding: 1px 9px;
   border-radius: 13px;
-}
-
-@media (max-width: 575px) {
-  .texts,
-  .name {
-    font-size: 12px;
-  }
-
-  .texts {
-    padding: 6px 12px;
-    border-radius: 15px;
-  }
-
-  .time,
-  .opened {
-    font-size: 10px;
-  }
 }
