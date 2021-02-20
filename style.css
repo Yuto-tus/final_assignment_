@@ -62,7 +62,6 @@ body {
 
 #talk .talk-left .texts::before {
   content: "";
-  display: inline-block;
   position: absolute;
   top: -7px;
   left: -18px;
@@ -77,7 +76,6 @@ body {
 
 #talk .talk-right .texts::after {
   content: "";
-  display: inline-block;
   position: absolute;
   top: -7px;
   right: -18px;
