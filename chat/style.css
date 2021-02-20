@@ -3,49 +3,50 @@ body {
   background-size: cover;
 }
 
-.talks-wrapper {
+#talk {
   display: flow-root;
 }
 
-.talk-left,
-.talk-right {
+#talk .talk-left,
+#talk .talk-right {
   width: 95%;
   display: flex;
-  flex: 1 0 0;
   margin-bottom: 18px;
 }
 
-.talk-right {
+#talk .talk-right {
   margin-left: auto;
+  margin-right: 12px;
   justify-content: flex-end;
 }
 
-.talker-img-wrapper img {
+#talk .talker-img-wrapper img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
   object-fit: cover;
 }
 
-.talk-left-main {
+#talk .talk-left-main {
   margin-left: 8px;
   margin-top: 5px;
 }
 
-.texts,
-.name {
+#talk .texts,
+#talk .name,
+#talk .date {
   font-size: 12px;
 }
 
-.name {
+#talk .name {
   color: #616170;
 }
 
-.texts-time-wrapper {
+#talk .texts-time-wrapper {
   display: flex;
 }
 
-.texts {
+#talk .texts {
   word-break: break-all;
   padding: 6px 12px;
   border-radius: 15px;
@@ -53,13 +54,13 @@ body {
   position: relative;
 }
 
-.talk-left .texts {
+#talk .talk-left .texts {
   background-color: #e0dede;
   margin-top: 2px;
   margin-left: 6px;
 }
 
-.talk-left .texts::before {
+#talk .talk-left .texts::before {
   content: "";
   display: inline-block;
   position: absolute;
@@ -70,11 +71,11 @@ body {
   transform: rotate(35deg);
 }
 
-.talk-right .texts {
+#talk .talk-right .texts {
   background-color: #acdaa1;
 }
 
-.talk-right .texts::after {
+#talk .talk-right .texts::after {
   content: "";
   display: inline-block;
   position: absolute;
@@ -85,32 +86,32 @@ body {
   transform: rotate(325deg);
 }
 
-.talk-secondary {
+#talk .talk-secondary {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-end;
 }
 
-.talk-right .talk-secondary {
+#talk .talk-right .talk-secondary {
   margin-right: 5px;
 }
 
-.time,
-.opened {
+#talk .time,
+#talk .opened {
   font-size: 10px;
   color: #c8c8d8;
   white-space: nowrap;
 }
 
-.talk-left .time {
+#talk .talk-left .time {
   margin-left: 5px;
 }
 
-.date {
+#talk .date {
   margin: 18px auto;
   background-color: #dedee2;
   width: fit-content;
   padding: 1px 9px;
-  border-radius: 13px;
+  border-radius: 10px;
 }
