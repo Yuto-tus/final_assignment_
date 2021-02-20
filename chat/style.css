@@ -14,6 +14,12 @@ body {
   margin-bottom: 18px;
 }
 
+#talk .name,
+#talk .texts,
+#talk .date {
+  font-size: 12px;
+}
+
 #talk .talk-right {
   margin-left: auto;
   margin-right: 12px;
@@ -30,12 +36,6 @@ body {
 #talk .talk-left-main {
   margin-left: 8px;
   margin-top: 5px;
-}
-
-#talk .texts,
-#talk .name,
-#talk .date {
-  font-size: 12px;
 }
 
 #talk .name {
@@ -91,21 +91,17 @@ body {
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-end;
-}
-
-#talk .talk-right .talk-secondary {
-  margin-right: 5px;
-}
-
-#talk .time,
-#talk .opened {
   font-size: 10px;
   color: #c8c8d8;
   white-space: nowrap;
 }
 
-#talk .talk-left .time {
+#talk .talk-left .talk-secondary {
   margin-left: 5px;
+}
+
+#talk .talk-right .talk-secondary {
+  margin-right: 5px;
 }
 
 #talk .date {
