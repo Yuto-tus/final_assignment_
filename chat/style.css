@@ -9,14 +9,14 @@ body {
 
 .talk-left,
 .talk-right {
-  width: 70%;
+  width: 95%;
   display: flex;
   flex: 1 0 0;
   margin-bottom: 18px;
 }
 
 .talk-right {
-  float: right;
+  margin-left: auto;
   justify-content: flex-end;
 }
 
@@ -34,6 +34,10 @@ body {
 
 .name {
   color: #616170;
+}
+
+.texts-time-wrapper {
+  display: flex;
 }
 
 .texts {
@@ -67,7 +71,6 @@ body {
 }
 
 .talk-secondary {
-  font-size: 12px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -80,6 +83,7 @@ body {
 
 .time,
 .opened {
+  font-size: 12px;
   color: #c8c8d8;
   white-space: nowrap;
 }
@@ -88,13 +92,27 @@ body {
   margin-left: 5px;
 }
 
+.date {
+  margin: 10px auto;
+  background-color: #dedee2;
+  width: fit-content;
+  padding: 1px 9px;
+  border-radius: 13px;
+}
+
 @media (max-width: 575px) {
   .texts,
   .name {
     font-size: 12px;
   }
 
-  .talk-secondary {
+  .texts {
+    padding: 6px 12px;
+    border-radius: 15px;
+  }
+
+  .time,
+  .opened {
     font-size: 10px;
   }
 }
