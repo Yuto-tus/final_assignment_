@@ -65,13 +65,10 @@ body {
 }
 
 #talks .texts-left::before {
-  content: "";
+  content: url(./svgs/left-bubble.svg);
   position: absolute;
-  top: -7px;
-  left: -18px;
-  border: 8px solid transparent;
-  border-right: 18px solid #fff;
-  transform: rotate(35deg);
+  top: -5px;
+  left: -11px;
 }
 
 #talks .talk-right {
@@ -85,13 +82,11 @@ body {
 }
 
 #talks .texts-right::after {
-  content: "";
+  content: url(./svgs/right-bubble.svg);
   position: absolute;
-  top: -7px;
-  right: -18px;
-  border: 8px solid transparent;
-  border-left: 18px solid #acdaa1;
-  transform: rotate(325deg);
+  top: -5px;
+  right: -11px;
+  transform: scale(-1, 1);
 }
 
 #talks .date {
