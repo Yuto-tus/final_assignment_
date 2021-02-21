@@ -1,90 +1,34 @@
 body {
   background-image: url(./img/chat-background-img.jpg);
   background-size: cover;
+  height: 100vh;
 }
 
-#talk {
+#talks {
   display: flow-root;
+  margin: 8px;
 }
 
-#talk .talk-left,
-#talk .talk-right {
+#talks .talk {
   width: 95%;
   display: flex;
   margin-bottom: 18px;
 }
 
-#talk .name,
-#talk .texts,
-#talk .date {
+#talks .name,
+#talks .texts,
+#talks .date {
   font-size: 12px;
 }
 
-#talk .talk-right {
-  margin-left: auto;
-  margin-right: 12px;
-  justify-content: flex-end;
-}
-
-#talk .talker-img-wrapper img {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-#talk .talk-left-main {
-  margin-left: 8px;
-  margin-top: 5px;
-}
-
-#talk .name {
-  color: #616170;
-}
-
-#talk .texts-time-wrapper {
-  display: flex;
-}
-
-#talk .texts {
+#talks .texts {
   word-break: break-all;
   padding: 6px 12px;
   border-radius: 15px;
-  width: fit-content;
   position: relative;
 }
 
-#talk .talk-left .texts {
-  background-color: #e0dede;
-  margin-top: 2px;
-  margin-left: 6px;
-}
-
-#talk .talk-left .texts::before {
-  content: "";
-  position: absolute;
-  top: -7px;
-  left: -18px;
-  border: 8px solid transparent;
-  border-right: 18px solid #e0dede;
-  transform: rotate(35deg);
-}
-
-#talk .talk-right .texts {
-  background-color: #acdaa1;
-}
-
-#talk .talk-right .texts::after {
-  content: "";
-  position: absolute;
-  top: -7px;
-  right: -18px;
-  border: 8px solid transparent;
-  border-left: 18px solid #acdaa1;
-  transform: rotate(325deg);
-}
-
-#talk .talk-secondary {
+#talks .talk-secondary {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -94,15 +38,63 @@ body {
   white-space: nowrap;
 }
 
-#talk .talk-left .talk-secondary {
-  margin-left: 5px;
+#talks .talker-img-wrapper img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
-#talk .talk-right .talk-secondary {
-  margin-right: 5px;
+#talks .talk-left-main {
+  margin-left: 8px;
+  margin-top: 5px;
 }
 
-#talk .date {
+#talks .name {
+  color: #616170;
+}
+
+#talks .texts-time-wrapper {
+  display: flex;
+}
+
+#talks .texts-left {
+  background-color: #fff;
+  margin-top: 2px;
+  margin-left: 6px;
+}
+
+#talks .texts-left::before {
+  content: "";
+  position: absolute;
+  top: -7px;
+  left: -18px;
+  border: 8px solid transparent;
+  border-right: 18px solid #fff;
+  transform: rotate(35deg);
+}
+
+#talks .talk-right {
+  margin-left: auto;
+  margin-right: 12px;
+  justify-content: flex-end;
+}
+
+#talks .texts-right {
+  background-color: #acdaa1;
+}
+
+#talks .texts-right::after {
+  content: "";
+  position: absolute;
+  top: -7px;
+  right: -18px;
+  border: 8px solid transparent;
+  border-left: 18px solid #acdaa1;
+  transform: rotate(325deg);
+}
+
+#talks .date {
   margin: 18px auto;
   background-color: #dedee2;
   width: fit-content;
